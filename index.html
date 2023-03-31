@@ -1,0 +1,636 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>花开富贵 | 人生得意须尽欢</title>
+
+  
+  <meta name="author" content="花开富贵">
+  
+
+  
+  <meta name="description" content="喜欢编程，但技术并不好，喜欢户外运动，如果不谈钱，最开心的事是周末和朋友一起出去骑自行车，毕生最想去的地方是去北京爬长城看故宫，如果将来有女朋友的话想带女朋友一起去稻城或者北京，这个博客用于记录我认为有意思的生活，让未来有迹可循">
+  
+
+  
+  <meta name="keywords" content="花开富贵的博客">
+  
+
+  <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  
+
+  <meta property="og:site_name" content="花开富贵"/>
+
+  
+  <meta property="og:image" content="/favicon.ico"/>
+  
+
+  <link href="/favicon.ico" rel="icon">
+  <link rel="alternate" href="/atom.xml" title="花开富贵" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+<div class="blog">
+  <div class="content">
+
+    <header>
+  <div class="site-branding">
+    <h1 class="site-title">
+      <a href="/">花开富贵</a>
+    </h1>
+    <p class="site-description">人生得意须尽欢</p>
+  </div>
+  <nav class="site-navigation">
+    <ul>
+      
+        <li><a href="/">主页</a></li>
+      
+        <li><a href="/archives">归档</a></li>
+      
+        <li><a href="/categories">分类</a></li>
+      
+        <li><a href="/tags">标签</a></li>
+      
+    </ul>
+  </nav>
+</header>
+
+    <main class="site-main posts-loop">
+    
+  <article>
+
+  
+    
+    <h3 class="article-title"><a href="/posts/家用老旧笔记本改家用服务器/"><span>家用电视盒子改成小型服务器</span></a></h3>
+    
+  
+
+  <div class="article-top-meta">
+    <span class="posted-on">
+      <a href="/posts/家用老旧笔记本改家用服务器/" rel="bookmark">
+        <time class="entry-date published" datetime="2023-03-31T09:14:09.000Z">
+          2023-03-31
+        </time>
+      </a>
+    </span>
+  </div>
+
+
+  
+
+  <div class="article-content">
+    <div class="entry">
+      
+        <p>之前更新过电视盒子改服务器的文章，几天更新个老笔记本改服务器的文章！没啥高深的技术，主要是记录一下。<br>笔记本是跟我也好几年了，初三那会开始，是一台联想的ThinkPad 不愧是ThinkPad 至今没坏过，也没维修过。</p>
+<p>电脑CPU是AMD的，2g内存，回来加装了4g，现在共6g，配置低，不过改装很有乐趣。<br>首先需要重装系统，我装的是Debian 11 没装桌面 ，重装系统的过程可以直接找谷歌，如果有想和我装一样系统的去官网下载镜像,不推荐去其他平台，官网地址如下。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://debian.org/</span><br></pre></td></tr></table></figure>
+
+<p>然后在介绍一个开源好用的内网端口映射工具叫nps ，就是一个类似花生壳的工具 地址如下</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://github.com/ehang-io/nps</span><br></pre></td></tr></table></figure>
+
+<p>使用这个工具需要有一台带公网IP的服务器做服务端，如果没有服务器，可以推荐花生壳这个平台，有免费的套餐，好不好用我就不知道了，这个平台我没用过不知道怎么样，这我可没打广告；</p>
+<p>回到话题 安装nps我推荐使用docker安装，安装好后有一个后台<img src="/../images/2023-03-31/img.png" alt="img.png"><br>后台就这样，功能很齐全，这个工具用来映射内网端口的，如果你也喜欢折腾，那么你肯定自己去翻文档查谷歌。<br>接下来安装客户端  在项目的 Releases 里找到与你电脑型号对应的客户端，客户端有很多主流平台，不用担心没有你的平台。<br>下载客户端到你的机器上  我这边的是debian不带桌面 所以我只要在客户端所在的目录运行以下命令即可<br><img src="/../images/2023-03-31/img_1.png" alt="img_1.png"><br>这个命令在nps后台的客户端哪里可以找到，运行的时候需要配置一下，在nps的官方文档上有，仔细看看，如从，我们就完成了内网到外网的映射，可以通过映射的端口直接访问到内网的应用了。</p>
+<p>如果是家里可以直接通过路由器内网访问，不用走映射。 值得一说的是，如果家里有ipv6的可以直接走ipv6的，就算外网也不用映射，如果没有，又想外网使用，那就乖做映射。<br>文章内容细节很少，只要的是思路，思路有了，找更详细的文章就容易多了。<br>顺便我简单画一下架构图<br><img src="/../images/2023-03-31/img_2.png" alt="img_2.png"></p>
+<p>流程就是这样，应该是不难的，主要是实现起来需要多看看文档。如果你也喜欢折腾，那这对应你来说问题应该不大。</p>
+<p>顺便说一下，搭建完成后用来做什么。<br>我咸鱼淘了块机械硬盘，扩容，做个下载器或者播放器都不错，这些服务到跑在docker上，非常方便。好了，思路就是这样，慢慢折腾吧！</p>
+
+      
+    </div>
+
+  </div>
+
+  <div class="article-footer">
+    <div class="article-meta pull-left">
+
+    
+
+    
+    
+
+    <span class="post-tags">
+      <i class="icon-tags"></i>
+        <a href="/tags/家用服务器/">家用服务器</a><a href="/tags/折腾/">折腾</a>
+    </span>
+    
+
+    </div>
+
+    
+  </div>
+</article>
+
+
+
+  <article>
+
+  
+    
+    <h3 class="article-title"><a href="/posts/家用电视盒子改家用型服务器/"><span>家用电视盒子改成小型服务器</span></a></h3>
+    
+  
+
+  <div class="article-top-meta">
+    <span class="posted-on">
+      <a href="/posts/家用电视盒子改家用型服务器/" rel="bookmark">
+        <time class="entry-date published" datetime="2021-01-20T05:42:09.000Z">
+          2021-01-20
+        </time>
+      </a>
+    </span>
+  </div>
+
+
+  
+
+  <div class="article-content">
+    <div class="entry">
+      
+        <p>​	 相信你家肯定有电视吧，想不想家里拥有一个服务器？共享文件，存放照片什么的都可以。</p>
+        
+      
+    </div>
+
+  </div>
+
+  <div class="article-footer">
+    <div class="article-meta pull-left">
+
+    
+
+    
+    
+
+    <span class="post-tags">
+      <i class="icon-tags"></i>
+        <a href="/tags/PHP/">PHP</a><a href="/tags/服务器/">服务器</a><a href="/tags/电视盒子/">电视盒子</a><a href="/tags/KSWEB/">KSWEB</a>
+    </span>
+    
+
+    </div>
+
+    
+  </div>
+</article>
+
+
+
+  <article>
+
+  
+    
+    <h3 class="article-title"><a href="/posts/根除电脑弹窗广告的方法/"><span>根除电脑弹窗广告的方法</span></a></h3>
+    
+  
+
+  <div class="article-top-meta">
+    <span class="posted-on">
+      <a href="/posts/根除电脑弹窗广告的方法/" rel="bookmark">
+        <time class="entry-date published" datetime="2021-01-03T05:42:09.000Z">
+          2021-01-03
+        </time>
+      </a>
+    </span>
+  </div>
+
+
+  
+
+  <div class="article-content">
+    <div class="entry">
+      
+        <p>​	不可否认的事情是，电脑遇到弹窗广告很无奈，无数次关闭，无数次弹出，看到我这篇博文，或许对你有帮助！</p>
+        
+      
+    </div>
+
+  </div>
+
+  <div class="article-footer">
+    <div class="article-meta pull-left">
+
+    
+
+    
+    
+
+    <span class="post-tags">
+      <i class="icon-tags"></i>
+        <a href="/tags/广告/">广告</a><a href="/tags/根除/">根除</a>
+    </span>
+    
+
+    </div>
+
+    
+  </div>
+</article>
+
+
+
+  <article>
+
+  
+    
+    <h3 class="article-title"><a href="/posts/要实习啦！/"><span>在校的最后一个学期！！！！</span></a></h3>
+    
+  
+
+  <div class="article-top-meta">
+    <span class="posted-on">
+      <a href="/posts/要实习啦！/" rel="bookmark">
+        <time class="entry-date published" datetime="2020-12-28T08:13:09.000Z">
+          2020-12-28
+        </time>
+      </a>
+    </span>
+  </div>
+
+
+  
+
+  <div class="article-content">
+    <div class="entry">
+      
+        <p>好吧，不出意外的话我可能要外出实习了，大学校园里的最后一个学期就此结束。</p>
+        
+      
+    </div>
+
+  </div>
+
+  <div class="article-footer">
+    <div class="article-meta pull-left">
+
+    
+
+    
+    
+
+    <span class="post-tags">
+      <i class="icon-tags"></i>
+        <a href="/tags/实习/">实习</a><a href="/tags/大学总结/">大学总结</a><a href="/tags/最后一个学期/">最后一个学期</a>
+    </span>
+    
+
+    </div>
+
+    
+  </div>
+</article>
+
+
+
+  <article>
+
+  
+    
+    <h3 class="article-title"><a href="/posts/爬虫/"><span>爬虫是什么？</span></a></h3>
+    
+  
+
+  <div class="article-top-meta">
+    <span class="posted-on">
+      <a href="/posts/爬虫/" rel="bookmark">
+        <time class="entry-date published" datetime="2020-11-29T05:42:09.000Z">
+          2020-11-29
+        </time>
+      </a>
+    </span>
+  </div>
+
+
+  
+
+  <div class="article-content">
+    <div class="entry">
+      
+        <p>爬虫是什么？我的理解就是在网络上按照一定的规则查询指定的内容。当然了，我的理解可能不全面，重要的是自己懂就行！</p>
+        
+      
+    </div>
+
+  </div>
+
+  <div class="article-footer">
+    <div class="article-meta pull-left">
+
+    
+
+    
+    
+
+    <span class="post-tags">
+      <i class="icon-tags"></i>
+        <a href="/tags/PHP/">PHP</a><a href="/tags/爬虫/">爬虫</a><a href="/tags/querylist/">querylist</a>
+    </span>
+    
+
+    </div>
+
+    
+  </div>
+</article>
+
+
+
+  <article>
+
+  
+    
+    <h3 class="article-title"><a href="/posts/hsadjak/"><span>这是一篇博文</span></a></h3>
+    
+  
+
+  <div class="article-top-meta">
+    <span class="posted-on">
+      <a href="/posts/hsadjak/" rel="bookmark">
+        <time class="entry-date published" datetime="2020-10-17T08:13:09.000Z">
+          2020-10-17
+        </time>
+      </a>
+    </span>
+  </div>
+
+
+  
+
+  <div class="article-content">
+    <div class="entry">
+      
+        <p>​	很久没更新了，不知道说什么好，之前没更新是因为不想更新，很累。</p>
+<p>现在为什么更新？我为了证明我还活着；刚刚电脑重启了一下，好几天没重启，卡出奥利给，趁现在电脑还还没开环境，把博客更新一下。</p>
+        
+      
+    </div>
+
+  </div>
+
+  <div class="article-footer">
+    <div class="article-meta pull-left">
+
+    
+
+    
+    
+
+    <span class="post-tags">
+      <i class="icon-tags"></i>
+        <a href="/tags/叙述/">叙述</a>
+    </span>
+    
+
+    </div>
+
+    
+  </div>
+</article>
+
+
+
+  <article>
+
+  
+    
+    <h3 class="article-title"><a href="/posts/proxySevertools/"><span>手机代理服务器</span></a></h3>
+    
+  
+
+  <div class="article-top-meta">
+    <span class="posted-on">
+      <a href="/posts/proxySevertools/" rel="bookmark">
+        <time class="entry-date published" datetime="2020-08-24T16:00:00.000Z">
+          2020-08-25
+        </time>
+      </a>
+    </span>
+  </div>
+
+
+  
+
+  <div class="article-content">
+    <div class="entry">
+      
+        <p>今天写一篇关于无需ROOT手机变成代理服务器的文章，那这篇文章到底有什么用呢？额。。。继续看文章内容吧！！！</p>
+<p><img src="/../images/proxysever/1.png"></p>
+        
+      
+    </div>
+
+  </div>
+
+  <div class="article-footer">
+    <div class="article-meta pull-left">
+
+    
+
+    
+    
+
+    <span class="post-tags">
+      <i class="icon-tags"></i>
+        <a href="/tags/proxy/">proxy</a><a href="/tags/代理/">代理</a><a href="/tags/VPN/">VPN</a>
+    </span>
+    
+
+    </div>
+
+    
+  </div>
+</article>
+
+
+
+  <article>
+
+  
+    
+    <h3 class="article-title"><a href="/posts/pachong-cosplay/"><span>cosplay图片爬虫</span></a></h3>
+    
+  
+
+  <div class="article-top-meta">
+    <span class="posted-on">
+      <a href="/posts/pachong-cosplay/" rel="bookmark">
+        <time class="entry-date published" datetime="2020-08-02T16:00:00.000Z">
+          2020-08-03
+        </time>
+      </a>
+    </span>
+  </div>
+
+
+  
+
+  <div class="article-content">
+    <div class="entry">
+      
+        <p>空闲之余写了个爬虫工具，该工具会自动爬取cosplay图片，随机爬取，源码仅供学习！！！</p>
+<p><img src="/../images/cosplay/p1.png"></p>
+        
+      
+    </div>
+
+  </div>
+
+  <div class="article-footer">
+    <div class="article-meta pull-left">
+
+    
+
+    
+    
+
+    <span class="post-tags">
+      <i class="icon-tags"></i>
+        <a href="/tags/PHP/">PHP</a><a href="/tags/爬虫/">爬虫</a><a href="/tags/cosplay/">cosplay</a><a href="/tags/源码/">源码</a>
+    </span>
+    
+
+    </div>
+
+    
+  </div>
+</article>
+
+
+
+  <article>
+
+  
+    
+    <h3 class="article-title"><a href="/posts/vip-doc-download/"><span>网页vip文档去复制限制</span></a></h3>
+    
+  
+
+  <div class="article-top-meta">
+    <span class="posted-on">
+      <a href="/posts/vip-doc-download/" rel="bookmark">
+        <time class="entry-date published" datetime="2020-06-15T08:57:09.000Z">
+          2020-06-15
+        </time>
+      </a>
+    </span>
+  </div>
+
+
+  
+
+  <div class="article-content">
+    <div class="entry">
+      
+        <p>一口气更新两篇博文，这篇我来说一下在一些网页上是如何去除文字复制限制的！！</p>
+<p><img src="/../images/vip-doc/a.png"></p>
+        
+      
+    </div>
+
+  </div>
+
+  <div class="article-footer">
+    <div class="article-meta pull-left">
+
+    
+
+    
+    
+
+    <span class="post-tags">
+      <i class="icon-tags"></i>
+        <a href="/tags/文档/">文档</a><a href="/tags/去限制/">去限制</a>
+    </span>
+    
+
+    </div>
+
+    
+  </div>
+</article>
+
+
+
+  <article>
+
+  
+    
+    <h3 class="article-title"><a href="/posts/light/"><span>光能手电筒</span></a></h3>
+    
+  
+
+  <div class="article-top-meta">
+    <span class="posted-on">
+      <a href="/posts/light/" rel="bookmark">
+        <time class="entry-date published" datetime="2020-06-13T16:00:00.000Z">
+          2020-06-14
+        </time>
+      </a>
+    </span>
+  </div>
+
+
+  
+
+  <div class="article-content">
+    <div class="entry">
+      
+        <p>​	最近突发奇想，写了个沙雕APP，原理是用手机上的照相机闪光灯当手电筒，用光线传感器控制，详细请看下图！！！</p>
+<p><img src="/../images/light/2.png"></p>
+        
+      
+    </div>
+
+  </div>
+
+  <div class="article-footer">
+    <div class="article-meta pull-left">
+
+    
+
+    
+    
+
+    <span class="post-tags">
+      <i class="icon-tags"></i>
+        <a href="/tags/app/">app</a><a href="/tags/沙雕发明/">沙雕发明</a>
+    </span>
+    
+
+    </div>
+
+    
+  </div>
+</article>
+
+
+
+
+<nav class="pagination">
+  
+  
+  <a href="/page/2/" class="pagination-next">下一页</a>
+  
+</nav>
+    </main>
+
+    <footer class="site-footer">
+  <p class="site-info">
+    Proudly powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and
+    Theme by <a href="https://github.com/CodeDaraW/Hacker" target="_blank">Hacker</a>
+    </br>
+    
+    &copy; 2023 花开富贵
+    
+  </p>
+</footer>
+    
+    
+  </div>
+</div>
+</body>
+</html>

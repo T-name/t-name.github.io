@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>家用电视盒子改成小型服务器 | 花开富贵 | 人生得意须尽欢</title>
+
+  
+  <meta name="author" content="花开富贵">
+  
+
+  
+  <meta name="description" content="喜欢编程，但技术并不好，喜欢户外运动，如果不谈钱，最开心的事是周末和朋友一起出去骑自行车，毕生最想去的地方是去北京爬长城看故宫，如果将来有女朋友的话想带女朋友一起去稻城或者北京，这个博客用于记录我认为有意思的生活，让未来有迹可循">
+  
+
+  
+  <meta name="keywords" content="花开富贵的博客">
+  
+
+  <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <meta property="og:title" content="家用电视盒子改成小型服务器"/>
+
+  <meta property="og:site_name" content="花开富贵"/>
+
+  
+  <meta property="og:image" content="/favicon.ico"/>
+  
+
+  <link href="/favicon.ico" rel="icon">
+  <link rel="alternate" href="/atom.xml" title="花开富贵" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+<div class="blog">
+  <div class="content">
+
+    <header>
+  <div class="site-branding">
+    <h1 class="site-title">
+      <a href="/">花开富贵</a>
+    </h1>
+    <p class="site-description">人生得意须尽欢</p>
+  </div>
+  <nav class="site-navigation">
+    <ul>
+      
+        <li><a href="/">主页</a></li>
+      
+        <li><a href="/archives">归档</a></li>
+      
+        <li><a href="/categories">分类</a></li>
+      
+        <li><a href="/tags">标签</a></li>
+      
+    </ul>
+  </nav>
+</header>
+
+    <main class="site-main posts-loop">
+    <article>
+
+  
+    
+    <h3 class="article-title"><span>家用电视盒子改成小型服务器</span></h3>
+    
+  
+
+  <div class="article-top-meta">
+    <span class="posted-on">
+      <a href="/posts/家用电视盒子改家用型服务器/" rel="bookmark">
+        <time class="entry-date published" datetime="2021-01-20T05:42:09.000Z">
+          2021-01-20
+        </time>
+      </a>
+    </span>
+  </div>
+
+
+  
+
+  <div class="article-content">
+    <div class="entry">
+      
+        <p>​	 相信你家肯定有电视吧，想不想家里拥有一个服务器？共享文件，存放照片什么的都可以。</p>
+<span id="more"></span>
+
+<p>据我所知现在我们国家大部分闭路电视都淘汰了，什么意思呢？就是说现在看电视都是通过网络播放了，说白了，就是和你手机用爱奇艺看海绵宝宝是一样的，只是设备不同。但是这个需要一个前提，需要一个电视盒子，在之前闭路电视的时代也需要一个解码设备，具体叫什么我不知道，和现在的电视盒子差不多大，跑题了，如果你不知道什么是电视盒子，可以淘宝看看图片，顺便去家里电视机旁边找看看有没有。品牌各异，但是基本原理一样，就是一个低端的安卓设备，当然了，不全都是。</p>
+<p>前提要求</p>
+<p>电视盒子 *1  电视盒子要有USB接口</p>
+<p>电视盒子必须是安卓系统</p>
+<p>KSWB集成环境app：</p>
+<p>有人可能不知道自己盒子是什么系统，其实可以像看手机一样，去电视盒子的设置里看，找一找修改的设备信息，是安卓系统就行。</p>
+<p>操作开始，打开电视盒子，可以进入盒子里面的浏览器去下载KSWEB集成环境，之后安装。</p>
+<p>这里值得注意的是，你可能直接在盒子里面下载会很麻烦，或者下载不了，此时你可以用手机或者电脑，下载到U盘中，在通过盒子的USB接口读取U盘，在盒子中找到U盘中下载好的文件安装即可，或许你找U盘找不到，在这里我也不知道怎么说，这个不固定，不好说，自己慢慢找，相信如果你看到这里了，说明你对计算机有一定了解，找一个文件不是问题。</p>
+<p>安装之后打开这个app，里面有Lighttpd&#x2F;nginx&#x2F;apache&#x2F;三个服务器，只要端口不冲突可以全开，建议三选一，推荐nginx，还有PHP，默认版本是7.3，接下来是mysql，ftp。</p>
+<p>好了有了以上程序就组合成了一个anmp（android+nginx+mysql+php）此时你可以可以跑php程序了。还可以通过ftp管理文件，需要数据库服务器时也可以开启。</p>
+<p>此时可以看看但是盒子的ip是多少，比如说192.168.1.100这个是盒子ip，开启的是nginx服务器，此时在局域网内可以访问192.168.1.100:8001（8001是nginx的默认开启端口，具体请看ksweb上的端口号）来访问这个页面。如果出现下面界面就说明成功了，这个是不会影响电视盒子看电视的。</p>
+
+      
+    </div>
+
+  </div>
+
+  <div class="article-footer">
+    <div class="article-meta pull-left">
+
+    
+
+    
+    
+
+    <span class="post-tags">
+      <i class="icon-tags"></i>
+        <a href="/tags/PHP/">PHP</a><a href="/tags/服务器/">服务器</a><a href="/tags/电视盒子/">电视盒子</a><a href="/tags/KSWEB/">KSWEB</a>
+    </span>
+    
+
+    </div>
+
+    
+  </div>
+</article>
+
+  
+
+
+
+
+
+
+
+
+
+    </main>
+
+    <footer class="site-footer">
+  <p class="site-info">
+    Proudly powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and
+    Theme by <a href="https://github.com/CodeDaraW/Hacker" target="_blank">Hacker</a>
+    </br>
+    
+    &copy; 2023 花开富贵
+    
+  </p>
+</footer>
+    
+    
+  </div>
+</div>
+</body>
+</html>

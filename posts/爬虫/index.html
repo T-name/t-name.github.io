@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>爬虫是什么？ | 花开富贵 | 人生得意须尽欢</title>
+
+  
+  <meta name="author" content="花开富贵">
+  
+
+  
+  <meta name="description" content="喜欢编程，但技术并不好，喜欢户外运动，如果不谈钱，最开心的事是周末和朋友一起出去骑自行车，毕生最想去的地方是去北京爬长城看故宫，如果将来有女朋友的话想带女朋友一起去稻城或者北京，这个博客用于记录我认为有意思的生活，让未来有迹可循">
+  
+
+  
+  <meta name="keywords" content="花开富贵的博客">
+  
+
+  <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <meta property="og:title" content="爬虫是什么？"/>
+
+  <meta property="og:site_name" content="花开富贵"/>
+
+  
+  <meta property="og:image" content="/favicon.ico"/>
+  
+
+  <link href="/favicon.ico" rel="icon">
+  <link rel="alternate" href="/atom.xml" title="花开富贵" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+<div class="blog">
+  <div class="content">
+
+    <header>
+  <div class="site-branding">
+    <h1 class="site-title">
+      <a href="/">花开富贵</a>
+    </h1>
+    <p class="site-description">人生得意须尽欢</p>
+  </div>
+  <nav class="site-navigation">
+    <ul>
+      
+        <li><a href="/">主页</a></li>
+      
+        <li><a href="/archives">归档</a></li>
+      
+        <li><a href="/categories">分类</a></li>
+      
+        <li><a href="/tags">标签</a></li>
+      
+    </ul>
+  </nav>
+</header>
+
+    <main class="site-main posts-loop">
+    <article>
+
+  
+    
+    <h3 class="article-title"><span>爬虫是什么？</span></h3>
+    
+  
+
+  <div class="article-top-meta">
+    <span class="posted-on">
+      <a href="/posts/爬虫/" rel="bookmark">
+        <time class="entry-date published" datetime="2020-11-29T05:42:09.000Z">
+          2020-11-29
+        </time>
+      </a>
+    </span>
+  </div>
+
+
+  
+
+  <div class="article-content">
+    <div class="entry">
+      
+        <p>爬虫是什么？我的理解就是在网络上按照一定的规则查询指定的内容。当然了，我的理解可能不全面，重要的是自己懂就行！</p>
+<span id="more"></span>
+
+<p>目前爬虫我归类为两种：<br>一种是爬接口<br>另一种是爬页面</p>
+<p>两个有什么区别呢？我也不好说，如果有接口可以用那会简单的多，页面的话会比爬接口复杂，但不是难，如果你有兴趣了解爬虫，我说的你一定回明白。</p>
+<p>心血来潮，写了个爬虫程序，主要用来爬取自己分院的学生优秀作品。<br>具体代码如下:</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">require</span> <span class="string">&#x27;vendor/autoload.php&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">use</span> <span class="title">QL</span>\<span class="title">QueryList</span>;</span><br><span class="line"><span class="comment">//采集某页面所有的图片</span></span><br><span class="line"><span class="title function_ invoke__">ini_set</span>(<span class="string">&quot;max_execution_time&quot;</span>, <span class="number">0</span>);  <span class="comment">//爬虫必备命令 设置运行时间无限制</span></span><br><span class="line"><span class="variable">$data</span> = <span class="title class_">QueryList</span>::<span class="title function_ invoke__">get</span>(<span class="string">&#x27;http://sz.jxgymy.com/xykd/sszp&#x27;</span>)-&gt;<span class="title function_ invoke__">find</span>(<span class="string">&#x27;.total&#x27;</span>)-&gt;<span class="title function_ invoke__">text</span>();</span><br><span class="line"><span class="variable">$url_total_page</span> = <span class="title function_ invoke__">str_replace</span>(<span class="string">&#x27;页&#x27;</span>,<span class="string">&quot;&quot;</span>,<span class="title function_ invoke__">str_replace</span>(<span class="string">&#x27;共&#x27;</span>,<span class="string">&#x27;&#x27;</span>,<span class="title function_ invoke__">strstr</span>(<span class="title function_ invoke__">strstr</span>(<span class="variable">$data</span>, <span class="string">&#x27;/&#x27;</span>),<span class="string">&#x27;共&#x27;</span>)));</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span>(<span class="variable">$i</span>=<span class="number">0</span>;<span class="variable">$i</span>&lt;<span class="variable">$url_total_page</span>;<span class="variable">$i</span>++)&#123;</span><br><span class="line">    <span class="variable">$url_total</span>[<span class="variable">$i</span>] = <span class="string">&#x27;http://sz.jxgymy.com/xykd/sszp_&#x27;</span>.(<span class="variable">$i</span>+<span class="number">1</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">for</span>(<span class="variable">$i</span>=<span class="number">0</span>;<span class="variable">$i</span>&lt;<span class="title function_ invoke__">count</span>(<span class="variable">$url_total</span>);<span class="variable">$i</span>++)&#123;</span><br><span class="line">    <span class="variable">$html</span> = <span class="title function_ invoke__">file_get_contents</span>(<span class="variable">$url_total</span>[<span class="variable">$i</span>]);</span><br><span class="line">    <span class="variable">$ql</span> = <span class="title class_">QueryList</span>::<span class="title function_ invoke__">html</span>(<span class="variable">$html</span>);</span><br><span class="line">    <span class="variable">$url</span>[<span class="variable">$i</span>]= <span class="variable">$ql</span>-&gt;<span class="title function_ invoke__">rules</span>([</span><br><span class="line">        <span class="string">&#x27;url&#x27;</span>=&gt;[<span class="string">&#x27;.pageTPList&gt;li&gt;.title&gt;a&#x27;</span>,<span class="string">&#x27;href&#x27;</span>]</span><br><span class="line">    ])-&gt;<span class="title function_ invoke__">query</span>()-&gt;<span class="title function_ invoke__">getData</span>()-&gt;<span class="title function_ invoke__">all</span>();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span>(<span class="variable">$i</span>=<span class="number">0</span>;<span class="variable">$i</span>&lt;<span class="title function_ invoke__">count</span>(<span class="variable">$url</span>);<span class="variable">$i</span>++)&#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="variable">$j</span>=<span class="number">0</span>;<span class="variable">$j</span>&lt;<span class="title function_ invoke__">count</span>(<span class="variable">$url</span>[<span class="variable">$i</span>]);<span class="variable">$j</span>++)&#123;</span><br><span class="line">        <span class="variable">$html</span> = <span class="title function_ invoke__">file_get_contents</span>(<span class="string">&#x27;http://sz.jxgymy.com&#x27;</span>.<span class="variable">$url</span>[<span class="variable">$i</span>][<span class="variable">$j</span>][<span class="string">&#x27;url&#x27;</span>]);</span><br><span class="line">        <span class="variable">$ql</span> = <span class="title class_">QueryList</span>::<span class="title function_ invoke__">html</span>(<span class="variable">$html</span>);</span><br><span class="line">        <span class="variable">$img</span>[<span class="variable">$i</span>][<span class="variable">$j</span>]= <span class="variable">$ql</span>-&gt;<span class="title function_ invoke__">rules</span>([</span><br><span class="line">            <span class="string">&#x27;title&#x27;</span>=&gt;[<span class="string">&#x27;.title&#x27;</span>,<span class="string">&#x27;text&#x27;</span>],</span><br><span class="line">            <span class="string">&#x27;img&#x27;</span>=&gt;[<span class="string">&#x27;.printArea&gt;div&gt;p&gt;img&#x27;</span>,<span class="string">&#x27;src&#x27;</span>]</span><br><span class="line">        ])-&gt;<span class="title function_ invoke__">query</span>()-&gt;<span class="title function_ invoke__">getData</span>()-&gt;<span class="title function_ invoke__">all</span>();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span>(<span class="variable">$i</span>=<span class="number">0</span>;<span class="variable">$i</span>&lt;<span class="title function_ invoke__">count</span>(<span class="variable">$img</span>);<span class="variable">$i</span>++)&#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="variable">$j</span>=<span class="number">0</span>;<span class="variable">$j</span>&lt;<span class="title function_ invoke__">count</span>(<span class="variable">$img</span>[<span class="variable">$i</span>]);<span class="variable">$j</span>++)&#123;</span><br><span class="line">        <span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="variable">$img</span>[<span class="variable">$i</span>][<span class="variable">$j</span>][<span class="number">0</span>][<span class="string">&#x27;img&#x27;</span>]))&#123;  <span class="comment">//判断url是否存在</span></span><br><span class="line">            <span class="variable">$img_file</span> = <span class="title function_ invoke__">file_get_contents</span>(<span class="string">&#x27;http://sz.jxgymy.com&#x27;</span>.<span class="variable">$img</span>[<span class="variable">$i</span>][<span class="variable">$j</span>][<span class="number">0</span>][<span class="string">&#x27;img&#x27;</span>]);</span><br><span class="line">            <span class="title function_ invoke__">file_put_contents</span>(<span class="string">&#x27;./img/&#x27;</span>.<span class="title function_ invoke__">md5</span>(<span class="title function_ invoke__">time</span>().<span class="title function_ invoke__">rand</span>(<span class="number">0</span>,<span class="number">100</span>)).<span class="string">&#x27;.jpg&#x27;</span>,<span class="variable">$img_file</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//dump($img);</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>精炼的代码得得益于Querylist框架，为我省了很多造轮子的时间。</p>
+<p>具体解释一下代码：</p>
+<p>语言：php </p>
+<p>框架：querylist</p>
+<p>代码全部流程就是 ：取全部分页》取全部分页下的文章》取全部文章下的作品&amp;标题》写入文件。</p>
+<p>ok具体流程就这些，这个也是爬虫的流程模型，我这里是直接下载到了本地。</p>
+<img src="data:image/png;base64,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">
+
+
+      
+    </div>
+
+  </div>
+
+  <div class="article-footer">
+    <div class="article-meta pull-left">
+
+    
+
+    
+    
+
+    <span class="post-tags">
+      <i class="icon-tags"></i>
+        <a href="/tags/PHP/">PHP</a><a href="/tags/爬虫/">爬虫</a><a href="/tags/querylist/">querylist</a>
+    </span>
+    
+
+    </div>
+
+    
+  </div>
+</article>
+
+  
+
+
+
+
+
+
+
+
+
+    </main>
+
+    <footer class="site-footer">
+  <p class="site-info">
+    Proudly powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and
+    Theme by <a href="https://github.com/CodeDaraW/Hacker" target="_blank">Hacker</a>
+    </br>
+    
+    &copy; 2023 花开富贵
+    
+  </p>
+</footer>
+    
+    
+  </div>
+</div>
+</body>
+</html>

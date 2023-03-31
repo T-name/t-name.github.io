@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>这是一篇博文</title>
+    <url>/posts/hsadjak/</url>
+    <content><![CDATA[<p>​	很久没更新了，不知道说什么好，之前没更新是因为不想更新，很累。</p>
+<p>现在为什么更新？我为了证明我还活着；刚刚电脑重启了一下，好几天没重启，卡出奥利给，趁现在电脑还还没开环境，把博客更新一下。</p>
+<span id="more"></span>
+
+<hr>
+<p>最近在干什么？</p>
+<p>这个学期应该是大学最后一个学期了，之后要面临着找工作的烦恼，到时候就要尝尽各种苦头，反正我是喜欢学校。</p>
+<p>​	最近也是在忙着毕业设计，我不想和其他人一样划水度过，大学期间要拿出点作品来，才好找工作。</p>
+<p>​	总的来说，回顾大学，大一时候放假就把想去的地方去了，的到大二开始每天的时候就是吃饭，睡觉，敲代码，天气好的话傍晚时候就去打篮球，傍晚太阳斜照在操厂上美到无法形容，反正我是喜欢这种天气。</p>
+<p>​	话说毕业答辩是个怎么样的流程，有点紧张，也有点兴奋，紧张是不知道我作品可以拿几分，兴奋是我对自己作品有信心，我只希望点评老师水平高一点，哈哈哈，有点自傲了哈》》》》》》，这个心态不能有。</p>
+<p>​	大学图书馆是个好地方，当然，我是说里面的自习室，很安静，很舒服，我基本上每天都会去，一坐就是小半天，全天没课的话基本上图书馆就是我第二个寝室了。</p>
+<p>​	刚般来新校区设备都没好，我们第一届新用户毫无新校区体验感，先是没网，没水，反正接收缺这缺那，好吧，我不吐槽了，我爱我的学校，ok。</p>
+<p>接下来我也不知道该说什么了。</p>
+]]></content>
+      <tags>
+        <tag>叙述</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>开篇</title>
+    <url>/posts/kai-pian/</url>
+    <content><![CDATA[<p><img src="/images/kai-pian/kp.png"></p>
+<p>哦！该死，一波三折，不过还好终于完成了，记得上次写博客还是高中时候吧，因为设备不齐全，写的也没什么营养，过了一阵子就放弃了，不过现在好了，万事俱备了，东风也不欠了，正正好。</p>
+<span id="more"></span>
+<p>  这个博客我会发表一些我的学习经验和我对一些事情的看法。当然了，写什么最主要的还是看我心情。可能说的不是很详细，可以看我博客<a href="/about/"><b>更多</b></a>介绍</p>
+]]></content>
+      <tags>
+        <tag>开篇</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>光能手电筒</title>
+    <url>/posts/light/</url>
+    <content><![CDATA[<p>​	最近突发奇想，写了个沙雕APP，原理是用手机上的照相机闪光灯当手电筒，用光线传感器控制，详细请看下图！！！</p>
+<p><img src="/../images/light/2.png"></p>
+<span id="more"></span>
+
+<p>为方便下载，特地做了个官网：<a href="https://t-name.gitee.io/light/">https://t-name.gitee.io/light/</a></p>
+<p>详情看软件介绍</p>
+<p>软件介绍：这个是一个光能手电筒<br>如果你在黑暗中渴望一丝光明，那么这个手电筒或许可以帮助你，采用最新科技，纳米技术懂吗？懂啊！对，和这个没关系，和量子力学有关系！！！！<br>该软件适用于家里，学校，公司等停电的情况下使用，使用方法也很简单，只要把APP打开将屏幕置放与光源处即可，那么在没灯的情况下怎么办？那它绝对不亮！设计非常得实用，非常得银杏！！</p>
+<p>该程序由个人开发，代码无任何抄袭或套用，本人人格保证无病毒并且安全<br>灵感来源一位叫达文西发明家<br>作者：张管家（小嵩）</p>
+]]></content>
+      <tags>
+        <tag>app</tag>
+        <tag>沙雕发明</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>cosplay图片爬虫</title>
+    <url>/posts/pachong-cosplay/</url>
+    <content><![CDATA[<p>空闲之余写了个爬虫工具，该工具会自动爬取cosplay图片，随机爬取，源码仅供学习！！！</p>
+<p><img src="/../images/cosplay/p1.png"></p>
+<span id="more"></span>
+
+<p>程序很简单，源码开源到GitHu有需要学习的可以去下载，自适应手机和电脑。</p>
+<p>仓库地址:<a href="https://github.com/T-name/pachon_copsplay.git">https://github.com/T-name/pachon_copsplay.git</a></p>
+<p>源码仅供学习，其他用途后果自负。</p>
+<p>测试环境：PHP：7.0.12</p>
+<p>测试截图：</p>
+<p><img src="/images/cosplay/p2.png"></p>
+<p><img src="/images/cosplay/p3.png"></p>
+]]></content>
+      <tags>
+        <tag>PHP</tag>
+        <tag>爬虫</tag>
+        <tag>cosplay</tag>
+        <tag>源码</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的PHP入门笔记</title>
+    <url>/posts/php-ru-men-bi-ji/</url>
+    <content><![CDATA[<img src="/images/php-ru-men-bi-ji/ww.jpg" style="zoom:150%;" />
+
+<p>对于php我相信会看到我这篇文章的朋友多少不陌生，可能也想入门php，那么我就把我的入门过程与笔记分享给大家。</p>
+<span id="more"></span>
+<p><strong>入门前言</strong><br>    首先php是一门脚本型编程语言，它与java，c，c#等等语言不同，脚本语言需要有一个对该脚本进行解释的解释器才可以。当然了，肯定不只是需要解释器怎么简单，其中还有很多复杂的操作，但是脚本解释器是必须的，否则机器无法识别你所写的代码，就PHP与java相比,其入门的门槛比java低，上手也比较容易，对数据的类型要求不那么严格，更关键的是见效快，基本上学完一个阶段就可以写出自己的小玩意，相对java来说还是比较适合编程新手入门编程的。</p>
+<p><strong>入门过程</strong><br>    学习编程方法大多一样，就大部分主流语言来说基本上都是换汤不换药，我是说语法层面的，语法学了一套之后在很多编程语言上都可以用，但是每个语言的语法也不是一模一样，它会有自己独特的部分，但是一般也很好理解。<br>    在一个是编程思想的的选择，主流的编程思想有面向对象，与面向过程，目前最主流的是面向对象，java，php，c#等等都是，这里要注意一下 c，c++,c#,是三个语言，不是一个语言，我怕有的朋友怀疑我是不是打错了，没有打错哈，还有c语言是面向过程语言，不要搞混了。<br>    有点跑偏了，我们还是来具体说php吧，php正是面向对象语言，它被称为世界上最好的语言，具体面向对象是什么东西大家可以<a href="www.baidu.com">百度一下</a>上面说的比我详细多了，copy过来也没意思，我们还说php。<br>    学php不能只会php，还要学数据库，html，JavaScript要对服务器方面有所了解，等等因为只会php写不了什么大玩意，数据库，JavaScript什么的不只在PHP用，其他语言用的上也可以用所以是非常有必要的，学php可以分为以下几个阶段，语法入门–了解面向对象–<strong>类的封装</strong>–<strong>框架的使用</strong>–部署服务器。大的过程就这些吧，当然了数据库什么的是另外算的了。说了这么多，上点干货吧，每次看视频教程我都会开一个记事本用于做笔记用，我把我入门的笔记分享给大家。</p>
+<p><strong>干货笔记</strong><br>    这些都是语法层面的笔记，是我笔记里的入门部分。<br>笔记里也有很多详细的解释，一看就懂。<br>ok 上笔记。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">php变量申请方式 $变量名</span><br><span class="line">&amp;nbsp 空格</span><br><span class="line">双引号与单引号的区别</span><br><span class="line">	双引号会解析变量等</span><br><span class="line">	单引号则原样输出</span><br><span class="line">隐藏notice通知方法 在提示语句上面添加：error_reporting(E_ALL^E_NOTICE);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">常用内置函数</span><br><span class="line">    mt_rand（最小值 ，最大值）； 取随机数</span><br><span class="line">	写入文件函数：file_put_contents(&#x27;文件名&#x27;,内容);</span><br><span class="line">	empty()  用于比较变量是否存在</span><br><span class="line">	错误抑制符 @ 加在出现错误不想让用户看到的语句上</span><br><span class="line"></span><br><span class="line">输出方式 </span><br><span class="line">     var_dump（）； 能打印出数据类型</span><br><span class="line">     print_r（）； 只能打出值</span><br><span class="line">     echo（）； 正常输出	</span><br><span class="line">     die（）；	截断输出 </span><br><span class="line">	 print();</span><br><span class="line">	 print_r();   该输出类似与于var_dump();</span><br><span class="line"></span><br><span class="line"> 单引号与双引号的区别 </span><br><span class="line">    单引号不解析变量 只是单纯的字符串</span><br><span class="line">    双引号会解析变量</span><br><span class="line">	</span><br><span class="line">语法：</span><br><span class="line">	=    赋值</span><br><span class="line">	==   等于</span><br><span class="line">	===  恒等于</span><br><span class="line">	-&gt;   调用对象属性或方法</span><br><span class="line">	::   调用类的静态方法或属性</span><br><span class="line">	=&gt;   数组键 =&gt; 值</span><br><span class="line"></span><br><span class="line">------------------------------------------------------</span><br><span class="line"></span><br><span class="line">方法库</span><br><span class="line">	普通方法：</span><br><span class="line">		1.instanceof(); 判断一个对象是否是某个类的实例</span><br><span class="line">			例如：</span><br><span class="line">				$obj = new A();</span><br><span class="line">				if ($obj instanceof A) &#123;</span><br><span class="line">				   echo &#x27;A&#x27;;</span><br><span class="line">				&#125;</span><br><span class="line">				</span><br><span class="line"></span><br><span class="line">----------------------------------------</span><br><span class="line"></span><br><span class="line">数据类型</span><br><span class="line">   标量</span><br><span class="line">		 整型  例如：1 2 3 ....</span><br><span class="line">		 </span><br><span class="line"></span><br><span class="line">		 浮点型 例如：3.141562654 5.2 7.4 ....</span><br><span class="line">		 </span><br><span class="line">		 布尔型 例如：true false</span><br><span class="line">		 </span><br><span class="line">		 字符串型 例如：‘只要用单引号引起来的就是字符串类型’</span><br><span class="line">	 </span><br><span class="line">	混合型 </span><br><span class="line">	     数组 例如：$arr = &#123;1,2,3,4，。。。&#125;;</span><br><span class="line">		 </span><br><span class="line">		 对象 object</span><br><span class="line">		 </span><br><span class="line">	特殊类型 </span><br><span class="line">		 空</span><br><span class="line">		    null</span><br><span class="line">		 资源</span><br><span class="line">		     resource</span><br><span class="line"></span><br><span class="line">---------------------------------------------</span><br><span class="line"></span><br><span class="line">数据类型转换</span><br><span class="line">   获取数据类型方法 gettype（变量名）；</span><br><span class="line">   转化为整型 intval（变量名）； //会将变量中的整数部分保留，若变量中没有整数则为 0 </span><br><span class="line">   转化为浮点型 floatval（变量名）； //会将变量中的小数部分保留，若变量中没有小数则为 0 </span><br><span class="line">   转化为字符型 strval（变量名）； //会将数值型变量转化成字符型</span><br><span class="line">   转化为布尔型 boolval（）变量名； //会将变量值转化成布尔型  </span><br><span class="line">    null（空）转化成整数型为 0   </span><br><span class="line">  判断数据类型常用函数</span><br><span class="line">      is_array();数组</span><br><span class="line">      is_string();字符串</span><br><span class="line">	  is_bool();布尔</span><br><span class="line">	  is_float();浮点</span><br><span class="line">	  is_object();对象</span><br><span class="line">	  is_int();数型</span><br><span class="line">	  is_numeric();数值</span><br><span class="line">	  is_resource();资源</span><br><span class="line">	  is_null();空</span><br><span class="line">	  is_scalar（）；标量</span><br><span class="line">	  gettype（）；获取数据类型</span><br><span class="line"></span><br><span class="line">	  var_dump()；输出值和数据类型</span><br><span class="line">--------------------------------------------</span><br><span class="line"></span><br><span class="line">系统常量</span><br><span class="line">  	 申明方法</span><br><span class="line">        define（‘常量名’，‘常量值’）； 需要传两个参数分别是 常量明和常量值 常量必须先定义再使用 常量不能重复定义 常量名一般用大写 常量值只能是标量</span><br><span class="line">  判断一个常量是否被定义函数胡</span><br><span class="line">         defined（被判断的常量明）；</span><br><span class="line">     系统常量</span><br><span class="line">         __file__ 获取自身网页名字路径</span><br><span class="line">		 __LINE__ 获取该代码在第几行</span><br><span class="line">		 PHP_VERSION 获取运行该网页的的php版本</span><br><span class="line">		 __DIR__ 获取该网页路径</span><br><span class="line">		 __FUNCTION__ 获取函数名</span><br><span class="line">		 M_PI 获取圆周率</span><br><span class="line">		 __MHTHOD__ 获取当前成员方法名</span><br><span class="line">		 __NAMESPACE__ 获取当前命名空间名字</span><br><span class="line">		 __TRAIT__ 获取当前TRAIT名（多继承）</span><br><span class="line">		 __CLASS__ 获取当前类名</span><br><span class="line"></span><br><span class="line">	常量不能写到字符串里面去</span><br><span class="line">----------------------------------------------------</span><br><span class="line"></span><br><span class="line">运算符</span><br><span class="line">   比较运算符</span><br><span class="line">		&gt; &lt; &gt;= &lt;= == ===</span><br><span class="line">	 == 只判断值是否相等 两个等号是比较</span><br><span class="line">     ==== 不但判断值还判断数据类型是否相等</span><br><span class="line">	 </span><br><span class="line"></span><br><span class="line">    逻辑运算符 </span><br><span class="line">         $$  并且 有一个假那它就是假</span><br><span class="line">    	 ||  或者 有一个真那它既是真</span><br><span class="line">    	 ！  非（取反）</span><br><span class="line"></span><br><span class="line">-------------------------------------------------</span><br><span class="line"></span><br><span class="line">流程判断</span><br><span class="line">  为folse的几种情况</span><br><span class="line">     1，整型的 0 在判断时候为假， 非 0 为真</span><br><span class="line">	 2,浮点为 0.0000000 都是假的 只要大于 0 都为真</span><br><span class="line">	 3，空字符串 ‘’ 为假 如果中间哪怕是只有一个字符都是真的</span><br><span class="line">	 4，空字符串 0 为假 其他都是真</span><br><span class="line">	 5，空数组为假</span><br><span class="line">	 6，null 作为判断条件时候为假</span><br><span class="line">	 </span><br><span class="line">   流程控制</span><br><span class="line">     if语句</span><br><span class="line">      单分支 </span><br><span class="line">        if（条件）&#123;</span><br><span class="line">		  真条件区</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">      双分支</span><br><span class="line">        if（条件）&#123;</span><br><span class="line">    	 真条件区</span><br><span class="line">    	&#125;else&#123;</span><br><span class="line">    	  假条件区</span><br><span class="line">    	&#125;</span><br><span class="line">    	</span><br><span class="line">    	多分支</span><br><span class="line">    	  if（判断条件）&#123;</span><br><span class="line">    	     语句</span><br><span class="line">    	  &#125;else if（判断条件）&#123;</span><br><span class="line">    	     语句</span><br><span class="line">    	  &#125;else if（判断条件）&#123;</span><br><span class="line">    	     语句</span><br><span class="line">    	  &#125;else&#123;</span><br><span class="line">    	     都不符合那就是我了</span><br><span class="line">    	  &#125;</span><br><span class="line"></span><br><span class="line">   	 switch语句</span><br><span class="line">	     switch（条件值）&#123;</span><br><span class="line">		   case 1；</span><br><span class="line">		       echo 1;break;</span><br><span class="line">		   case 2;</span><br><span class="line">		       echo 2;break;</span><br><span class="line">			default:</span><br><span class="line">                echo &quot;备胎&quot;;break；			</span><br><span class="line">			   </span><br><span class="line"></span><br><span class="line">			 ...........  </span><br><span class="line">		&#125;</span><br><span class="line">		停止语句用break；</span><br><span class="line"></span><br><span class="line">---------------------------------------------------------</span><br><span class="line"></span><br><span class="line">循环流程</span><br><span class="line">  for(初始值 ；控制循环代码；改变循环代码)&#123;</span><br><span class="line">     语句</span><br><span class="line"></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">   whlie（控制循环代码）&#123;        //初始值需要在外部定义 例如：$i = 0;</span><br><span class="line">     语句</span><br><span class="line">	 改变循环代码 例如：$i++;</span><br><span class="line">   &#125;  //先判断在输出</span><br><span class="line"></span><br><span class="line">   do&#123; 					      //初始值需要在外部定义 例如：$i = 0;</span><br><span class="line">    语句</span><br><span class="line">	改变循环代码 例如：$i++;</span><br><span class="line">   &#125;while（控制循环代码）；   //先输出在判断  </span><br><span class="line"></span><br><span class="line">  跳出循环</span><br><span class="line">     break；    //跳出本次循环</span><br><span class="line"></span><br><span class="line">	 continue；  //跳过本项循环 直到循环结束</span><br><span class="line">-------------------------------------------------------</span><br><span class="line"></span><br><span class="line">函数</span><br><span class="line">	 函数有两种 自定义函数 and 类库函数</span><br><span class="line">	   类库函数是已经封装好直接可以使用的函数</span><br><span class="line">	   自定义函数是需要自己写的函数</span><br><span class="line">	   </span><br><span class="line"></span><br><span class="line">	   函数定义：function 函数名（）&#123;</span><br><span class="line">	   </span><br><span class="line">		   &#125;   // 关键字function在自定义一个函数名加上一个 （） 再加上 &#123;&#125; 语句在 &#123;&#125; 里面写</span><br><span class="line">		 调用：函数名（） //  调用时候需要函数名加 （） 一起才可以</span><br><span class="line">	  函数可以被调用多次，可以不分前后顺序，它和变量不同；</span><br><span class="line">	  </span><br><span class="line">	  形参和返回值的限制</span><br><span class="line">	      function test（int $num,int $sity）&#123;&#125; //形参限制</span><br><span class="line">	      function test（$num,$sity）string&#123;&#125; //返回值限制</span><br><span class="line">	  </span><br><span class="line">	作用域</span><br><span class="line">	  函数内部与外部定义的函数可以名字一样，互不相干</span><br><span class="line">	    局部变量 函数外部变量  局部变量在内部申请不能被外部调用</span><br><span class="line">		全局变量 函数内部变量  全局变量在外部申请不能在函数内部被调用</span><br><span class="line">		超全局变量  和内部变量外部变量是同一个变量  例如：$_GET $_POST $_COOKIE $_SESSION $GLOBALS</span><br><span class="line">		静态变量  关键字 static 该变量会记录上次使用的值 并且只初始化一次，static 变量不会销毁</span><br><span class="line">	限制数据类型</span><br><span class="line">	    对形参数限制数据类型 需要定义形参变量的时候加需要限制的数据类型 例如：function info（int $num ）&#123;&#125;	</span><br><span class="line">		对函数返回值限制数据类型 需要在函数名（）后面加上需要限制的数据类型 例如：function info（）：string &#123;&#125;  //冒号不要忘记了</span><br><span class="line">	  新特性1：例如 function test（...$arr）&#123;</span><br><span class="line">	       var_dump($arr);</span><br><span class="line">	                 &#125;	  </span><br><span class="line">	      tes(&#x27;abc&#x27;,1,2,3,4,5,6,&#x27;bb&#x27;);</span><br><span class="line">		  </span><br><span class="line">	  新特性2:  例如： function test($a,$b,$c,$d)&#123;</span><br><span class="line">	                  var_dump($a,$b,$c,$d);</span><br><span class="line">	  &#125;	  </span><br><span class="line">	     $arr = [&#x27;abc&#x27;,&#x27;def&#x27;,2,1]; //需要对应到形参个数</span><br><span class="line">		 test(...$arr);  </span><br><span class="line">		 </span><br><span class="line">	匿名函数</span><br><span class="line">		 指没有名字的函数 例如：function（）&#123;&#125;</span><br><span class="line">		 调用方法只要把他赋值给一个变量 例如：$test = function()&#123;&#125;;</span><br><span class="line">		 </span><br><span class="line">	常用函数</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">​		  </span><br><span class="line">  	</span><br><span class="line"></span><br><span class="line">--------------------------------------------------</span><br><span class="line"></span><br><span class="line">	包含文件方法</span><br><span class="line">		include（&quot;文件路径&quot;);  //当包含文件不存在会发出警告 但会执行后续代码  该方法不可重复包含</span><br><span class="line">		include_once()  //重复包含解决方法</span><br><span class="line">		</span><br><span class="line">		require(&quot;文件路径&quot;);   //当包含文件不存在会直接报错 不执行后续代码  该方法不可重复包含</span><br><span class="line">		require_onec();重复包含解决方法</span><br><span class="line"></span><br><span class="line">------------------------------------------------------</span><br><span class="line"></span><br><span class="line">数组</span><br><span class="line">  索引数组</span><br><span class="line">    定义方式：</span><br><span class="line">	   $arr = [1,2,3,4]; //申明一个变量把数组赋值给该变量 	 新版本方法</span><br><span class="line">       $arr = array(1,2,3,4); //申明一个变量把数组赋值给该变量 变量由 array  关键词申明	   老版本方法	</span><br><span class="line">	   指定下标 例如：$arr = [ &#x27;5&#x27; =&gt; &#x27;a&#x27;,&#x27;b&#x27;,&#x27;c&#x27;,&#x27;d&#x27;];  索引是数字</span><br><span class="line">	   </span><br><span class="line">   关联数组  下标索引可以是字母 例如：</span><br><span class="line">       $arr = [ &#x27;java&#x27; =&gt; &#x27;a&#x27;,</span><br><span class="line">	      &#x27;c&#x27;=&gt;&#x27;b&#x27;,</span><br><span class="line">		  &#x27;php&#x27;=&gt;&#x27;c&#x27;,</span><br><span class="line">		  &#x27;c++&#x27;=&gt;&#x27;d&#x27;];</span><br><span class="line">      </span><br><span class="line"></span><br><span class="line">二维数组 例如</span><br><span class="line">  $arr = [</span><br><span class="line">    &#x27;php&#x27;=&gt;[1]</span><br><span class="line">    &#x27;java&#x27;=&gt;[2]</span><br><span class="line">    &#x27;c&#x27;=&gt;[3]</span><br><span class="line">   ]</span><br><span class="line"></span><br><span class="line">三维数组 多维数组 例如</span><br><span class="line">  $arr = [</span><br><span class="line">       &#x27;php&#x27;=&gt;[&#x27;1&#x27;=&gt;[1]</span><br><span class="line">               ,&#x27;2&#x27; =&gt;[1]</span><br><span class="line">           ,&#x27;3&#x27;=&gt;[2],</span><br><span class="line">           &#x27;4&#x27;=&gt;[3],</span><br><span class="line">           &#x27;5&#x27;=&gt;[4]],</span><br><span class="line">		   </span><br><span class="line"></span><br><span class="line">       &#x27;java&#x27;=&gt;[&#x27;1&#x27;,&#x27;2&#x27;,&#x27;3&#x27;,&#x27;4&#x27;,&#x27;5&#x27;],</span><br><span class="line">       </span><br><span class="line">       &#x27;c&#x27;=&gt;[&#x27;1&#x27;,&#x27;2&#x27;,&#x27;3&#x27;,&#x27;4&#x27;,&#x27;5&#x27;]</span><br><span class="line"></span><br><span class="line">   ];</span><br><span class="line"></span><br><span class="line">一维数组 增 删 改 查 </span><br><span class="line">    查 $arr[0];  //数组名【下标数】</span><br><span class="line">		</span><br><span class="line"></span><br><span class="line">    增 $arr[4] = &#x27;增加一个数组&#x27;; //数组名【最后一个数组下标可以是关联数组下标】= &quot;需要增加的数组值&quot;；</span><br><span class="line">    </span><br><span class="line">    删 unset($arr[2])； //使用 unset（需要删除数组下标） 函数</span><br><span class="line">    </span><br><span class="line">    改  $arr[1] = &#x27;php&#x27;;  //数下标 = &quot;需要修改的值&quot;;</span><br><span class="line"></span><br><span class="line">二维数组 增 删 改 查</span><br><span class="line">    查 arr[&#x27;php&#x27;][0]  </span><br><span class="line">    ......  //与一维数组同理 三维数组也同理</span><br><span class="line"> 获取数组个数方法</span><br><span class="line">		count（数组名）；//一般用于遍历数组</span><br><span class="line">	</span><br><span class="line">遍历数组下标</span><br><span class="line">    输出数组下标方法 </span><br><span class="line">			foreach($arr as $key =&gt; $value)&#123;</span><br><span class="line">			echo $key . &#x27;&lt;br/&gt;&#x27;;</span><br><span class="line">			echo $arr[$key] .&#x27;&lt;br/&gt;&#x27;;</span><br><span class="line">			&#125;</span><br><span class="line">    输出数组值方法</span><br><span class="line">         list（$a,$b....）= $arr; // 该函数是把数组一一赋值给变量</span><br><span class="line">		 each（变量名）；//会输出索引好关联的数组 每一行就输出一个数组	</span><br><span class="line"></span><br><span class="line">超全局数组  22课很重要</span><br><span class="line">     _REQUEST //可以接收post和get传递过来的数组</span><br><span class="line"></span><br><span class="line">     _SERVER  //可以接收post和get传递过来的全部参数 </span><br><span class="line">-------------------------------------------------</span><br><span class="line"></span><br><span class="line">连接数据库</span><br><span class="line">   八个步骤</span><br><span class="line">       1.连接数据库</span><br><span class="line">    $link = mysqli——connect（‘localhost’，‘root’，‘root’）</span><br><span class="line"></span><br><span class="line">       2.判断是否连接成功</span><br><span class="line"></span><br><span class="line">   if(!$link)&#123;</span><br><span class="line">     exit（‘数据库连接失败’）</span><br><span class="line">   		&#125;</span><br><span class="line">       3.设置在字符集</span><br><span class="line">    mysqli_set_charset($link,&#x27;utf8&#x27;); </span><br><span class="line"></span><br><span class="line">       4.选择数据库</span><br><span class="line">    mysqli_select_db($link,&#x27;bbs&#x27;);   </span><br><span class="line">    </span><br><span class="line">       5.准备sql语句</span><br><span class="line">    $sql = &quot;select * from bbs&quot;;</span><br><span class="line">      </span><br><span class="line">       6.发送sql语句</span><br><span class="line">    </span><br><span class="line">    $res = mysqli_query($link,$sql);  --它返回的是一个布尔值</span><br><span class="line">    </span><br><span class="line">       7.处理结果集</span><br><span class="line">    $result = mysqli_fetch_assoc($res);   //每一条代码都会读一条数据库的数据</span><br><span class="line">    // var_dump($result);</span><br><span class="line">    </span><br><span class="line">       8.关闭数据库(释放资源) 	 	 	 </span><br><span class="line">    mysqi_close($link);</span><br><span class="line"></span><br><span class="line">-------------------------------------------------</span><br><span class="line"></span><br><span class="line">处理结果集常用函数</span><br><span class="line">    处理带关联的数组：mysqli_fetch_assoc($obj);    ---返回一个带关联的一维数组</span><br><span class="line">    处理带索引的数组：mysqli_fetch_row($obj);      ----返回一个带索引的一维数组</span><br><span class="line">    处理带有索引又有关联的数组：mysqli_fetch_array($obj);   ----返回一个既带关联又带索引的一维数组</span><br><span class="line">    查询表中数据条数：mysqli_num_rows($obj);       ----返回一个表中数据条数</span><br><span class="line"></span><br><span class="line">    查询当前插入最后一条数据自增的id值：mysqli_insert_id($link);   -----返回插入最后一个数据的id自增值</span><br><span class="line">----------------------------------------------------------</span><br><span class="line"></span><br><span class="line">实战php对数据库 增 删 改 查</span><br><span class="line"></span><br><span class="line">   源码</span><br><span class="line">--------------------------------------------------------------</span><br><span class="line"></span><br><span class="line">php类和对象</span><br><span class="line">  官方概念：类是对象的抽象，对象是类的具象；</span><br><span class="line">	类的简单使用</span><br><span class="line">	  属性和行为</span><br><span class="line">	   属性 ===》变量</span><br><span class="line">	   行为 ===》方法（函数）</span><br><span class="line"></span><br><span class="line">	php类的定义</span><br><span class="line">	  类的名字定义遵从大驼峰原则  例如：MySql</span><br><span class="line">	  //对象的名字定义遵从小驼峰原则 例如：mySql</span><br><span class="line">	   class person      ----定义了一个类，person为类名</span><br><span class="line">		&#123;</span><br><span class="line">		  public1 $sex;     ----变量（属性）  关键字 public  专业的名词叫成员属性</span><br><span class="line">		  public function age()&#123;       -----方法（行为）  关键字public	  专业的名词叫成员方法   </span><br><span class="line">			&#125; </span><br><span class="line">		&#125;</span><br><span class="line">	   </span><br><span class="line">	通过类定义一个具体的对象</span><br><span class="line">	  方法一  $obj = new person();     -------person是你定义的类的名字 用 new 关键字实例化 然后赋给 $obj ,打印输出是一个对象 </span><br><span class="line">	  方法二   $name = &#x27;person&#x27;;  $obj = new $name()</span><br><span class="line">	 </span><br><span class="line">	通过对象访问类里面的属性</span><br><span class="line">	   $obj-&gt;sex  ----age为类里面的属性，此处可不加 $ 符号。	</span><br><span class="line">	   $obj-&gt;sex = 18;  ----通过对象为类里面的sex属性赋值；</span><br><span class="line">	通过对象访问类里面的方法</span><br><span class="line">	    $obj-&gt;age();   ----age为类里面定义的方法名</span><br><span class="line"></span><br><span class="line">--------------------------------------------------------</span><br><span class="line"></span><br><span class="line">构造方法和this关键字</span><br><span class="line">    构造方法写法    该方会在实例为对象时候主自动被调用 而不是手动调用，它是一个魔术方法；</span><br><span class="line">      构造方法不传参         </span><br><span class="line">		 class person&#123;	</span><br><span class="line">           public $name;</span><br><span class="line">		   public $aeg;		</span><br><span class="line">		   public function __construct()&#123;    ----该方法需要写到类里面全。 注意function 后面有一个空格</span><br><span class="line">				  	echo &#x27;恭喜调用成功&#x27;;				</span><br><span class="line">			&#125;</span><br><span class="line">			&#125;</span><br><span class="line">	   $obj = new person();</span><br><span class="line">       $obj1 = new person();</span><br><span class="line">     	   </span><br><span class="line"></span><br><span class="line">	  构造方法传参</span><br><span class="line">	 	  class person&#123;	</span><br><span class="line">	       public $name;</span><br><span class="line">		   public $aeg;		</span><br><span class="line">		   public function __construct($name,$age)&#123;    ----该方法需要写到类里面全。 注意function 后面有一个空格</span><br><span class="line">				$this-&gt;name = $name;  	  -----原理是用 $this关键字去访问自己的成员属性 name 然后把  $name 赋值给自己的成员属性 name； 注意是$this 			</span><br><span class="line">				$this-&gt;age = $age;  				</span><br><span class="line">			&#125;</span><br><span class="line">			&#125;</span><br><span class="line">	   $obj = new person(&#x27;张三&#x27;,18);    -----实参传到形参。</span><br><span class="line">	   $obj1 = new person(&#x27;李四&#x27;,19);</span><br><span class="line"></span><br><span class="line">---------------------------------------------------------------------------</span><br><span class="line"></span><br><span class="line">继承与派生</span><br><span class="line">   父子类的叫法</span><br><span class="line">       父类 == 子类</span><br><span class="line">	   基类 == 派生类</span><br><span class="line">	   </span><br><span class="line">   php是一门单继承语言 一个子类只能有一个父类</span><br><span class="line"></span><br><span class="line">   继承语法</span><br><span class="line">      基本语法</span><br><span class="line">	     例如：</span><br><span class="line">		   class Animal&#123;</span><br><span class="line">		    public $name;</span><br><span class="line">			public function eat()&#123;</span><br><span class="line">			 echo&quot;我是父类&quot;;</span><br><span class="line">			&#125;</span><br><span class="line">		   &#125;</span><br><span class="line">		   </span><br><span class="line"></span><br><span class="line">		   class Person extends Animal&#123;、</span><br><span class="line">					public $name;</span><br><span class="line">					public function sex()&#123;</span><br><span class="line">					 echo &quot;我是子类&quot;; </span><br><span class="line">					&#125;  -------子类可以有自己独有的属性与方法</span><br><span class="line">		     </span><br><span class="line">		   &#125;   -------这里Person类用 extends 关键字继承 Animal类，此时Person类继承了Animal类的所有属性与方法，这个叫继承。 之后直接实例化子类Person类即可调用父类</span><br><span class="line">	           </span><br><span class="line">	访问权限</span><br><span class="line">	    public        公共的</span><br><span class="line">		protected     受保护的</span><br><span class="line">	    private       私有的	</span><br><span class="line">	  三者区别</span><br><span class="line"></span><br><span class="line">   	    public 可以在类外通过对象调用访问 其余两个不可以</span><br><span class="line">		protected 与 public 可以被继承 而private不可被继承</span><br><span class="line">		</span><br><span class="line"></span><br><span class="line">		详细:            外部访问        子类继承			</span><br><span class="line">		public			  可以			   可以</span><br><span class="line">		protected		  不可以		   可以</span><br><span class="line">		private			  不可以           不可以</span><br><span class="line">	其对方法的修饰功能也是一样的	</span><br><span class="line"></span><br><span class="line">-------------------------------------------------------</span><br><span class="line"></span><br><span class="line"> 重载/重写方法 （多态） </span><br><span class="line">    重写作用</span><br><span class="line">	   父类的方法不适合子类使用，那么这个时候子类可以重写父类方法</span><br><span class="line">	    重写分两种：</span><br><span class="line">            完全重写</span><br><span class="line">            在父类基础上添加一定的功能			</span><br><span class="line">        子类调用的方法是子类重写后的方法，父类还是调用父类的方法</span><br><span class="line">		在父类基础上添加属性方法 用 parent 关键字（普通方法 ， 构造方法 都可以用）</span><br><span class="line">		    parent::person();  ---先调用父类的方法在增加自己的方法</span><br><span class="line">	    </span><br><span class="line"></span><br><span class="line">		final 关键字  </span><br><span class="line">			final：修饰class（类）  ，代表中国类不能能被继承</span><br><span class="line">			final：修饰method(方法) ，代表这个方法不能被重写</span><br><span class="line">	重写中的方法权限修改</span><br><span class="line">	   权限排名 public - protected - private </span><br><span class="line">	    public ===》 public   ----因为public是最大权限</span><br><span class="line">		protected ===&gt; protected public</span><br><span class="line">	    方法权限重写只能放大不能缩小	</span><br><span class="line"></span><br><span class="line">------------------------------------------</span><br><span class="line"></span><br><span class="line">魔术方法</span><br><span class="line">	什么是魔术方法</span><br><span class="line">		系统在特定的时机自动调用的方法。</span><br><span class="line">	常用魔术方法</span><br><span class="line">        __get</span><br><span class="line">			触发时机：对象在外部设置私有或受保护成员属性值的时候调用</span><br><span class="line">			该方法有一个参数：参数就是属性名</span><br><span class="line">	    __set</span><br><span class="line">			触发时机：对象在外部设置私有或保护成员属性值的时候调用</span><br><span class="line">			该方法有两个参数：</span><br><span class="line">				参数1：成员属性名</span><br><span class="line"></span><br><span class="line">				参数2：要设置的值</span><br><span class="line">---------------------------------------------</span><br><span class="line"></span><br><span class="line">类常量</span><br><span class="line">      类的常量</span><br><span class="line">	     定义类常量的方式：const name = 1000；  ---- const 关键字 ：： 变量名 的方式定义，不用 $ 符号。</span><br><span class="line">	     类常量可以通过类的外部调用 例如： echo 类名::常量名;  也可以是类的对象名：：常量名</span><br><span class="line">		 类方法里调用类常量的方式 例如：self::name 也可以是 this：：常量名 -----self关键字 ：：变量名 的方式定义，不用 $ 符号。</span><br><span class="line"></span><br><span class="line">   	   在类的外部也可以用 define 和 const 定义， 但在类内部只能用const定义。 注意：定义常量不要加修饰符			</span><br><span class="line">----------------------------------------</span><br><span class="line"></span><br><span class="line">静态属性和静态方法</span><br><span class="line">	 定义静态属性和静态方法： static 关键字。</span><br><span class="line">	   例如： public static $name;</span><br><span class="line">	 静态属性的调用方法</span><br><span class="line">       类外</span><br><span class="line">	      类名：：静态属性名  或者 $obj ::静态属性名</span><br><span class="line">	   类内</span><br><span class="line">          self：：静态属性名  或者 $this ::静态属性名</span><br><span class="line">     静态属性的调用方法 </span><br><span class="line">        类外</span><br><span class="line">           类名：：静态方法名  或者 $obj ::静态方法名  $obj -&gt; 静态方法名</span><br><span class="line">		类内</span><br><span class="line"></span><br><span class="line">			self：：静态方法名  或者 $obj ::静态方法名 $this -&gt; 静态方法名</span><br><span class="line">----------------------------------</span><br><span class="line"></span><br><span class="line">抽象类和接口</span><br><span class="line">	抽象类</span><br><span class="line">		  定义抽象类的方法</span><br><span class="line">			 abstract 关键字   在类的前面加 abstract 关键字。</span><br><span class="line">		  抽象类注意事项</span><br><span class="line">			 【1】 抽象类不能被实例化			 </span><br><span class="line">			 【2】 抽象类的存在是为了让子类继承</span><br><span class="line">			 【3】 抽象类的定义和普通类定义一样 只不过前面加了关键字 abstract </span><br><span class="line">			 【4】 抽象类里面都要有抽象方法 抽象类是用来人子类实现的而且子类必须实现，不实现就报错。</span><br><span class="line">					&lt;?php</span><br><span class="line">						 abstract class Animal &#123;</span><br><span class="line">							 abstract public function eag();	</span><br><span class="line">							 &#125;	 </span><br><span class="line">							class peson extends Animal &#123;</span><br><span class="line">								public function eag ()&#123;</span><br><span class="line">									echo &quot;你好&quot;;</span><br><span class="line">								&#125;</span><br><span class="line">							&#125;</span><br><span class="line">			 【5】 抽象方法只能是public 或者protected</span><br><span class="line">			 【6】 抽象方法如果有参数 参数有默认值 那么实现该方法的时候参数和默认值也都要有</span><br><span class="line">			 【7】 抽象类可以继承抽象类，子类在实现的时候所有的抽象方法都得实现 字类要实现所有抽象方法</span><br><span class="line">接口（抽象的抽象类）</span><br><span class="line">    interface：接口</span><br><span class="line">	implements：实现</span><br><span class="line">	</span><br><span class="line"></span><br><span class="line">	接口中的方法都是抽象方法，所以abstrsact可以不写</span><br><span class="line">	接口中的方法必须都是public</span><br><span class="line">	接口中只能规定方法，不能写属性，但是可以写常量</span><br><span class="line">	一个类经营实现多个接口，中间用逗号隔开</span><br><span class="line">	一个类可以先继承父类，然后在实现接口</span><br><span class="line">	接口可以继承接口，但是里面的方法都要实现</span><br><span class="line"></span><br><span class="line">---------------------------------------</span><br><span class="line"></span><br><span class="line">trait（特性）</span><br><span class="line">   trait就是用来模拟实现多继承的</span><br><span class="line">   instance：实例</span><br><span class="line">   trait写法类的写法一样，把class改成trait即可，继承的方法四 用关键字 use trait父类名字；</span><br><span class="line">   一般情况 trait 中不加成员属性 只加成员方法</span><br><span class="line">   trait不能实例化</span><br><span class="line">   trait中的方法让（子类）来使用 ，该方法必须是public</span><br><span class="line">   trait可以嵌套trait</span><br><span class="line"></span><br><span class="line">   方法名冲突</span><br><span class="line">        use  Dun Sword&#123;</span><br><span class="line">        Dun::attack insteadof Sword;		</span><br><span class="line">	    Dun::attack as DunAttack;</span><br><span class="line">		Sword::attack as Sattack;</span><br><span class="line"></span><br><span class="line">		&#125;</span><br><span class="line">------------------------------------</span><br><span class="line"></span><br><span class="line">命名空间 </span><br><span class="line">    命名空间：namespace</span><br><span class="line">	命名空间是可以在同一个php中定义两个同名的类</span><br><span class="line">	语法：namespace name1；</span><br><span class="line">	      class person &#123;</span><br><span class="line">		  </span><br><span class="line"></span><br><span class="line">		  &#125;</span><br><span class="line">		  namespace name2；</span><br><span class="line">		   class person &#123;</span><br><span class="line">		  &#125;</span><br><span class="line">	注意事项：第一个命名空间之前不能有任何代码	  </span><br><span class="line">	实例命名空间里面类的方法是，在该命名空间下面去实例化即可。也可以这样 $name1 = new \name1\person();  name1是命名空间的名字，person是类名</span><br><span class="line">	根空间 \</span><br><span class="line">	子空间 \name\text</span><br><span class="line">	</span><br><span class="line">	use的使用和as的使用</span><br><span class="line">	use：\name\person;  ---此时将可以使用命名空间name下面的person这个类</span><br><span class="line">	as（起别名）：用于同时use两个命名空间时类名相同的时候可以给其中一个类名起别名</span><br><span class="line"></span><br><span class="line">-----------------------------------------------------------------------------------------</span><br><span class="line"></span><br><span class="line">异常处理</span><br><span class="line">    try和 catch</span><br><span class="line">       格式：try&#123; </span><br><span class="line">	     echo &quot;起床&quot;;</span><br><span class="line">		 throw new Exception(“拉肚子”，10);  ----抛出异常代号为10.</span><br><span class="line">		 echo “吃早餐”；</span><br><span class="line">	   </span><br><span class="line"></span><br><span class="line">	   &#125;catch(Exception $e)&#123;</span><br><span class="line">	   </span><br><span class="line">	   &#125;</span><br><span class="line">	   echo &quot;开始上班&quot;;</span><br><span class="line">	执行流程：程序正常运行try结构中的代码，如果try中抛出异常，try中抛出异常后面的代码不会在执行，那么就会执行catch中的代码，然后继续向下执，如果没有抛出异常则会执行完try中的代码，程序继续向下执行。</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">​	</span><br><span class="line"></span><br><span class="line">	Exception:官方的异常处理类，是所有异常类的基类</span><br><span class="line">	getMessage：得到异常消息</span><br><span class="line">	geyCode:得到异常代号</span><br><span class="line"></span><br><span class="line"> 自定义异常处理类</span><br><span class="line"></span><br><span class="line">-------------------------------------------------------------</span><br><span class="line"></span><br><span class="line">会话控制</span><br><span class="line">	cookie操作</span><br><span class="line">	 设置cookie:</span><br><span class="line">			setcookie(&#x27;name&#x27;,&#x27;zhangshang&#x27;,&#x27;有效期&#x27;,&#x27;/&#x27;);   ---time()+60  表示当前时间加上60秒之后cookie失效  / 表示作用域，该作用域在该网站都有效</span><br><span class="line">	 销毁cookie:</span><br><span class="line">			setcookie(&#x27;name&#x27;,&#x27;&#x27;,time()-1,&#x27;/&#x27;);</span><br><span class="line"></span><br><span class="line">	session操作 </span><br><span class="line">		开启：</span><br><span class="line">			session_start() / 想用session就必须开启</span><br><span class="line">		设置：</span><br><span class="line">			$_SESSION[&#x27;username&#x27;] = &#x27;zhangsan&#x27;;   //使用session</span><br><span class="line">		释放：</span><br><span class="line">			session_destroy();   //使用完必须要释放session</span><br><span class="line">		销毁：</span><br><span class="line">			unset($_SESSION[&#x27;username&#x27;]);   //销毁名字为username的session的值</span><br><span class="line"></span><br><span class="line">----------------------------------------------------------------</span><br><span class="line"></span><br><span class="line">GD库</span><br><span class="line">	GD库的作用是画图</span><br><span class="line">	开启GD库方法:</span><br><span class="line">		 打开php.ini文件 搜索 GD2 打开模块即可(去掉前面的符号)</span><br><span class="line">		 </span><br><span class="line"></span><br><span class="line">	画图使用步骤：</span><br><span class="line">	     手册搜索 imagecreatetruecolor 查看更多函数</span><br><span class="line">		1.创建画布</span><br><span class="line">			$image = imagecreatetruecolor(600,600);    //传两个函数 长 宽  单位像素</span><br><span class="line">		</span><br><span class="line">		2.准备颜色</span><br><span class="line">			$sed = imagecolorallocate($image,255,0,0);     //长四个参数 1.画布资源   2.红色值 ，3.绿色值 4.蓝色值  颜色值为：0-255 之间</span><br><span class="line">		</span><br><span class="line">		3.用GD库让函数去画画</span><br><span class="line">			imageline($image,0,0,600,600);   //画一条线</span><br><span class="line">			</span><br><span class="line">		4.告诉浏览器你的mime类型</span><br><span class="line">			header(&quot;Content-type:image/png&quot;);</span><br><span class="line">			</span><br><span class="line">		4.输出到来了或者存放到本地</span><br><span class="line">			imagepng($image);   //输出到本地    </span><br><span class="line">		5.销毁资源</span><br><span class="line">			imagedestroy($image);   //销毁资源   参数是画布</span><br><span class="line"></span><br><span class="line">-------------------------------------------------------------------------</span><br><span class="line"></span><br><span class="line">文件上传 </span><br><span class="line">	PHP方法</span><br><span class="line">		$_FILES   ---获取上传文件的信息</span><br><span class="line">		move_uploaded_file(&#x27;临时文件名&#x27;,&#x27;需要移动到的临时目录&#x27;);  ----移动临时文件</span><br><span class="line">		copy(&#x27;临时文件名&#x27;,&#x27;需要拷贝到的目录&#x27;)   ----拷贝</span><br><span class="line">		pathinfo(&quot;/testweb/test.txt&quot;,PATHINFO_BASENAME)    ----获取文件信息  参数可选。当设置为 TRUE 时，规定函数应该返回一个浮点数，否则返回一个字符串。默认为 FALSE。</span><br><span class="line">		is_uploaded_file(file)  ----判断该文件是否为post上传</span><br><span class="line">		microtime(true) -----函数返回当前 Unix 时间戳的微秒数。 值为true时返回一个浮点数</span><br><span class="line">		file_exists(path) -----函数检查文件或目录是否存在。</span><br><span class="line">		mkdir(path,mode,recursive,context) ----函数创建目录。 mode 参数在 Windows 平台上被忽略。</span><br><span class="line">		getimagesize()  ---返回一个数组 包含图片信息 函数用于获取图像大小及相关信息，成功返回一个数组，失败则返回 FALSE 并产生一条 E_WARNING 级的错误信息。 </span><br><span class="line">			getimagesize() 函数将测定任何 GIF，JPG，PNG，SWF，SWC，PSD，TIFF，BMP，IFF，JP2，JPX，JB2，JPC，XBM 或 WBMP 图像文件的大小并返回图像的尺寸以及文件类型及图片高度与宽度。</span><br><span class="line">	客户端配置</span><br><span class="line">		表单页面</span><br><span class="line">		发送方式为 POST</span><br><span class="line">		表单添加 enctype =&quot;multipart/form-data&quot;  属性</span><br><span class="line">	</span><br><span class="line"></span><br><span class="line">	客户端配置 php.ini设置如下</span><br><span class="line">		file——uploads=On    ----支持HTTP上传</span><br><span class="line">		upload_tmp_dir = 临时文件保存目录    ----设置临时保存文件目录</span><br><span class="line">		upload——max——filesize =2M  ---允许上传文件最大值</span><br><span class="line">		max_file_uploads=20  ----允许一次上传的最大文件数</span><br><span class="line">		post_max_size=8M   --POST方式方式数据最大值</span><br><span class="line">	</span><br><span class="line">	$_File返回值解析</span><br><span class="line">		该函数返回一个二维数组</span><br><span class="line">			第一维名字是 input 表单中 name 值 </span><br><span class="line">			第二维</span><br><span class="line">				name  ---文件名字</span><br><span class="line">				type  ----文件类型</span><br><span class="line">				tmp_name ----临时文件名</span><br><span class="line">				error  ---状态提示</span><br><span class="line">					0  ---上传成功</span><br><span class="line">					1  ---文件超过PHP服务器php.ini中upload——max——filesize允许上传大小  可更改</span><br><span class="line">					2  ----上传文件的大小超过了HTML表单中max_file_sixe选项指定的值</span><br><span class="line">					3  ----文件只有部分被上传</span><br><span class="line">					4  ----文件没有被上传</span><br><span class="line">					6  ----找不到临时文件</span><br><span class="line">					7  ----文件写入失败</span><br><span class="line">					8  ----上传的文件被PH在扩展程序中断</span><br><span class="line">					</span><br><span class="line">				size  ----文件大小</span><br><span class="line">	</span><br><span class="line">	文件上传相关配置</span><br><span class="line">		max_execution_time=-1  ----设置了脚本被解析器终止之前的最大执行时间，单位为秒，为了防止程序写的不好而占尽服务器资源</span><br><span class="line">		max_input_time=60  -----脚本解析输入数据允许最大的时间，单位为秒。</span><br><span class="line">		max_input_nesting_level=64   ----设置输入变量的嵌套深度。  </span><br><span class="line">		memory_limit=128M 最大单线程的独立内存使用量，也就是一个web请求，给予线程最大内存使用量的定义。</span><br><span class="line">			</span><br><span class="line">	客户端限制</span><br><span class="line">		通过表单隐藏域限制上传文件的最大值</span><br><span class="line">			&lt;input type=&quot;hidden&quot; name=&quot;MAX_FILE_SIZE&quot; value=&quot;字节数&quot;/&gt;</span><br><span class="line">		通过accept属性限制上传文件类型</span><br><span class="line">			&lt;input type=&quot;file&quot; name=&quot;myFile&quot; accept=&quot;文件的MIME类型 例如 image/png&quot;/&gt;</span><br><span class="line">	</span><br><span class="line">	上传限制</span><br><span class="line">		服务器端限制</span><br><span class="line">			限制上传文件大小		</span><br><span class="line">			限制上传文件类型</span><br><span class="line">			检测是否为真实图片类型</span><br><span class="line">			检测是否为 HTTP POST 方式发送</span><br><span class="line">	</span><br><span class="line">	文件下载</span><br><span class="line">		客户端配置</span><br><span class="line">			&lt;a href=&quot;doDownload.php?filename=1.jpg&quot;&gt;下载1.jpg&lt;/a&gt;</span><br><span class="line">		服务器配置		</span><br><span class="line">			$filename =$_GET[filename];  ---用GET方式获取文件名</span><br><span class="line">			header(&#x27;content-disposition:attachment;filename=&#x27;basename($filename));</span><br><span class="line">			header(&#x27;content-length:&#x27;.filesize($filename));</span><br><span class="line">			readfile($filename);</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <tags>
+        <tag>PHP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>手机代理服务器</title>
+    <url>/posts/proxySevertools/</url>
+    <content><![CDATA[<p>今天写一篇关于无需ROOT手机变成代理服务器的文章，那这篇文章到底有什么用呢？额。。。继续看文章内容吧！！！</p>
+<p><img src="/../images/proxysever/1.png"></p>
+<span id="more"></span>
+
+<p>开头时候我说明一下，这款工具不是我开发的，不是我开发的，不是我开发的！！！作者我不知道</p>
+<p>那为什么会有我的博客在上面？额。。。这个就相当于我把巧克力融化了，然后重新塑形，那它将有我起名，哈哈哈哈哈！！！ </p>
+<p>好吧，我个人而言给他重新起名只是为了好记，或许有人不适应我这种行为，那看到这里就不要看下去了。网络中你无法干我，骂我我也听不到。</p>
+<p>话不多说，如果你在手机上开了VPN的话，而且需要开热点连接的用户与你保持统一地址，那或许你需要这个工具，这个是它其中的一个用处。</p>
+<p>需要材料：</p>
+<p>代理转发工具一个：<a href="https://wwa.lanzous.com/ii8Gig0tdpi">https://wwa.lanzous.com/ii8Gig0tdpi</a></p>
+<p>手机A一部</p>
+<p>手机&#x2F;电脑&#x2F;路由器&#x2F;可以连接热点并可以设置代理的设备</p>
+<p>开搞</p>
+<p>手机A安装工具并且打开</p>
+<p><img src="/images/proxysever/2.png"></p>
+<p>点击左上角添加 选择 代理服务器</p>
+<p><img src="/images/proxysever/3.png"></p>
+<p>服务名称随便    服务端口也随便  点返回就会弹出保存提示</p>
+<p><img src="/images/proxysever/4.png"></p>
+<p><img src="/images/proxysever/5.png"></p>
+<p>然后点开启 或者选择单个开启</p>
+<p><img src="/images/proxysever/6.png"></p>
+<p>ok 手机A上就操作完成了 ，保持后台运行就可以了。</p>
+<p><img src="/images/proxysever/7.png"></p>
+<p>好接下来就是另一个设备的设置了，我这里用的是电脑，手机等设备原理是一样的</p>
+<p>假设此时手机A已经开启热点，并且电脑已经连接上该热点。</p>
+<p><img src="/images/proxysever/8.png"></p>
+<p>ok，接下来，打开VPN工具，并且连接。</p>
+<p>示例VPN</p>
+<p><img src="/images/proxysever/9.jpg"></p>
+<p>接下来电脑上打开代理设置，这个在电脑在每台电脑上都有的。</p>
+<p><img src="/images/proxysever/10.png"></p>
+<p>打开局域网设置</p>
+<p><img src="/images/proxysever/11.png"></p>
+<p>勾选代理服务器，地址怎么填那个呢？</p>
+<p><img src="/images/proxysever/12.jpg"></p>
+<p>点开</p>
+<p><img src="/images/proxysever/13.jpg"></p>
+<p>端口就是你开始设置的那个打开，我这里设置的是1234</p>
+<p>ok，确定保存就可以了。我们来看一下效果。</p>
+<p><img src="/images/proxysever/14.png"></p>
+<p>ok，和手机IP一致，代理成功。可以起飞了。  这种方法只能代理浏览器，要代理全部应用可以找到相应的工具即可，手机同理更简单，</p>
+]]></content>
+      <tags>
+        <tag>proxy</tag>
+        <tag>代理</tag>
+        <tag>VPN</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在线文字转语音</title>
+    <url>/posts/tts/</url>
+    <content><![CDATA[
+
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <title>进步工具箱</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/mdui/0.4.3/css/mdui.min.css">
+    <script src="https://cdnjs.loli.net/ajax/libs/mdui/0.4.3/js/mdui.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <style>
+        body {
+            background-color: #FFFFFF;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 56 28' width='56' height='28'%3E%3Cpath fill='%23EDF1F6' fill-opacity='1' d='M56 26v2h-7.75c2.3-1.27 4.94-2 7.75-2zm-26 2a2 2 0 1 0-4 0h-4.09A25.98 25.98 0 0 0 0 16v-2c.67 0 1.34.02 2 .07V14a2 2 0 0 0-2-2v-2a4 4 0 0 1 3.98 3.6 28.09 28.09 0 0 1 2.8-3.86A8 8 0 0 0 0 6V4a9.99 9.99 0 0 1 8.17 4.23c.94-.95 1.96-1.83 3.03-2.63A13.98 13.98 0 0 0 0 0h7.75c2 1.1 3.73 2.63 5.1 4.45 1.12-.72 2.3-1.37 3.53-1.93A20.1 20.1 0 0 0 14.28 0h2.7c.45.56.88 1.14 1.29 1.74 1.3-.48 2.63-.87 4-1.15-.11-.2-.23-.4-.36-.59H26v.07a28.4 28.4 0 0 1 4 0V0h4.09l-.37.59c1.38.28 2.72.67 4.01 1.15.4-.6.84-1.18 1.3-1.74h2.69a20.1 20.1 0 0 0-2.1 2.52c1.23.56 2.41 1.2 3.54 1.93A16.08 16.08 0 0 1 48.25 0H56c-4.58 0-8.65 2.2-11.2 5.6 1.07.8 2.09 1.68 3.03 2.63A9.99 9.99 0 0 1 56 4v2a8 8 0 0 0-6.77 3.74c1.03 1.2 1.97 2.5 2.79 3.86A4 4 0 0 1 56 10v2a2 2 0 0 0-2 2.07 28.4 28.4 0 0 1 2-.07v2c-9.2 0-17.3 4.78-21.91 12H30zM7.75 28H0v-2c2.81 0 5.46.73 7.75 2zM56 20v2c-5.6 0-10.65 2.3-14.28 6h-2.7c4.04-4.89 10.15-8 16.98-8zm-39.03 8h-2.69C10.65 24.3 5.6 22 0 22v-2c6.83 0 12.94 3.11 16.97 8zm15.01-.4a28.09 28.09 0 0 1 2.8-3.86 8 8 0 0 0-13.55 0c1.03 1.2 1.97 2.5 2.79 3.86a4 4 0 0 1 7.96 0zm14.29-11.86c1.3-.48 2.63-.87 4-1.15a25.99 25.99 0 0 0-44.55 0c1.38.28 2.72.67 4.01 1.15a21.98 21.98 0 0 1 36.54 0zm-5.43 2.71c1.13-.72 2.3-1.37 3.54-1.93a19.98 19.98 0 0 0-32.76 0c1.23.56 2.41 1.2 3.54 1.93a15.98 15.98 0 0 1 25.68 0zm-4.67 3.78c.94-.95 1.96-1.83 3.03-2.63a13.98 13.98 0 0 0-22.4 0c1.07.8 2.09 1.68 3.03 2.63a9.99 9.99 0 0 1 16.34 0z'%3E%3C/path%3E%3C/svg%3E");
+
+        }
+    
+        .mdui-col-xs-3 .mdui-select {
+            float: right;
+        }
+    
+    </style>
+</head>
+
+<body class=" mdui-theme-accent-red ">
+
+
+<div class="mdui-container " style="max-width: 840px">
+    <div class="mdui-m-b-4">
+        <label class="mdui-textfield-label">声音选择</label>
+        <select name="per" class="per mdui-select" style="width: 100%">
+            <option value="0">女声</option>
+            <option value="5">情感女声</option>
+            <option value="1">男声</option>
+            <option value="3">情感男声</option>
+            <option value="4">度丫丫</option>
+        </select>
+    </div>
+
+    <div class="mdui-m-b-4">
+        <label class="mdui-textfield-label">语速</label>
+        <label class="mdui-slider mdui-slider-discrete">
+            <input class="spd"  value="5" type="range" step="1" min="1" max="15"/>
+        </label>
+    </div>
+    
+    <div class="mdui-m-b-4">
+        <label class="mdui-textfield-label">语调</label>
+        <label class="mdui-slider mdui-slider-discrete">
+            <input class="pit" value="2" type="range" step="1" min="1" max="5"/>
+        </label>
+    </div>
+    
+    <div class="mdui-textfield mdui-m-b-4">
+        <label class="mdui-textfield-label">语音内容</label>
+        <textarea  class="text mdui-textfield-input"></textarea>
+    </div>
+    
+    <div class="mdui-col">
+        <button onclick="playMusic()" class="mdui-btn mdui-btn-block mdui-color-theme-accent mdui-ripple"><i class="mdui-icon material-icons">&#xe405;</i></button>
+    </div>
+    
+    <div class="mdui-m-t-4">
+        <audio id="player"  class="mdui-hidden"  controls="controls"></audio>
+        <div class="mdui-float-right mdui-m-r-2">
+            <label class="mdui-textfield-label">音频下载</label>
+            <label class="mdui-switch">
+                <input class="checkbox"  type="checkbox"/>
+                <i class="mdui-switch-icon"></i>
+            </label>
+        </div>
+    </div>
+    
+        <script>
+            $('.checkbox').click(function () {
+                if($("input[type='checkbox']").prop("checked")){
+                    $('#player').removeClass('mdui-hidden');
+                }else {
+                    $('#player').addClass('mdui-hidden');
+                }
+    
+            });
+
+
+
+            function playMusic() {
+                var per = $('.per').val(); //声音
+                var spd = $('.spd').val(); //语速
+                var pit = $('.pit').val(); //音调
+                var text = $('.text').val()?$('.text').val():'请在上方输入语音内容'; //文本
+                var player = $('#player').attr({src:'https://tts.baidu.com/text2audio?tex='+text+'&cuid=baike&lan=ZH&ctp=1&pdt=301&vol=100&rate=32&per='+per+'&spd='+spd+'&pit='+pit}); //文本
+                var player = $("#player")[0]; /*jquery对象转换成js对象*/
+                if (player.paused){ /*如果已经暂停*/
+                    player.play(); /*播放*/
+                }else {
+                    player.pause();/*暂停*/
+                }
+            }
+        </script>
+
+
+
+    <!-- CONTENT -->
+</div>
+</body>
+</html>
+
+]]></content>
+      <tags>
+        <tag>语音</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我眼中的世界</title>
+    <url>/posts/wo-kan-jian/</url>
+    <content><![CDATA[<p><img src="/../images/wo-kai-jian/tupian.png"></p>
+<p>或许不是每个人看的时候都是同一种心情。</p>
+<span id="more"></span>
+
+]]></content>
+      <tags>
+        <tag>叙述</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>家用电视盒子改成小型服务器</title>
+    <url>/posts/%E5%AE%B6%E7%94%A8%E7%94%B5%E8%A7%86%E7%9B%92%E5%AD%90%E6%94%B9%E5%AE%B6%E7%94%A8%E5%9E%8B%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
+    <content><![CDATA[<p>​	 相信你家肯定有电视吧，想不想家里拥有一个服务器？共享文件，存放照片什么的都可以。</p>
+<span id="more"></span>
+
+<p>据我所知现在我们国家大部分闭路电视都淘汰了，什么意思呢？就是说现在看电视都是通过网络播放了，说白了，就是和你手机用爱奇艺看海绵宝宝是一样的，只是设备不同。但是这个需要一个前提，需要一个电视盒子，在之前闭路电视的时代也需要一个解码设备，具体叫什么我不知道，和现在的电视盒子差不多大，跑题了，如果你不知道什么是电视盒子，可以淘宝看看图片，顺便去家里电视机旁边找看看有没有。品牌各异，但是基本原理一样，就是一个低端的安卓设备，当然了，不全都是。</p>
+<p>前提要求</p>
+<p>电视盒子 *1  电视盒子要有USB接口</p>
+<p>电视盒子必须是安卓系统</p>
+<p>KSWB集成环境app：</p>
+<p>有人可能不知道自己盒子是什么系统，其实可以像看手机一样，去电视盒子的设置里看，找一找修改的设备信息，是安卓系统就行。</p>
+<p>操作开始，打开电视盒子，可以进入盒子里面的浏览器去下载KSWEB集成环境，之后安装。</p>
+<p>这里值得注意的是，你可能直接在盒子里面下载会很麻烦，或者下载不了，此时你可以用手机或者电脑，下载到U盘中，在通过盒子的USB接口读取U盘，在盒子中找到U盘中下载好的文件安装即可，或许你找U盘找不到，在这里我也不知道怎么说，这个不固定，不好说，自己慢慢找，相信如果你看到这里了，说明你对计算机有一定了解，找一个文件不是问题。</p>
+<p>安装之后打开这个app，里面有Lighttpd&#x2F;nginx&#x2F;apache&#x2F;三个服务器，只要端口不冲突可以全开，建议三选一，推荐nginx，还有PHP，默认版本是7.3，接下来是mysql，ftp。</p>
+<p>好了有了以上程序就组合成了一个anmp（android+nginx+mysql+php）此时你可以可以跑php程序了。还可以通过ftp管理文件，需要数据库服务器时也可以开启。</p>
+<p>此时可以看看但是盒子的ip是多少，比如说192.168.1.100这个是盒子ip，开启的是nginx服务器，此时在局域网内可以访问192.168.1.100:8001（8001是nginx的默认开启端口，具体请看ksweb上的端口号）来访问这个页面。如果出现下面界面就说明成功了，这个是不会影响电视盒子看电视的。</p>
+]]></content>
+      <tags>
+        <tag>PHP</tag>
+        <tag>服务器</tag>
+        <tag>电视盒子</tag>
+        <tag>KSWEB</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>家用电视盒子改成小型服务器</title>
+    <url>/posts/%E5%AE%B6%E7%94%A8%E8%80%81%E6%97%A7%E7%AC%94%E8%AE%B0%E6%9C%AC%E6%94%B9%E5%AE%B6%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
+    <content><![CDATA[<p>之前更新过电视盒子改服务器的文章，几天更新个老笔记本改服务器的文章！没啥高深的技术，主要是记录一下。<br>笔记本是跟我也好几年了，初三那会开始，是一台联想的ThinkPad 不愧是ThinkPad 至今没坏过，也没维修过。</p>
+<p>电脑CPU是AMD的，2g内存，回来加装了4g，现在共6g，配置低，不过改装很有乐趣。<br>首先需要重装系统，我装的是Debian 11 没装桌面 ，重装系统的过程可以直接找谷歌，如果有想和我装一样系统的去官网下载镜像,不推荐去其他平台，官网地址如下。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://debian.org/</span><br></pre></td></tr></table></figure>
+
+<p>然后在介绍一个开源好用的内网端口映射工具叫nps ，就是一个类似花生壳的工具 地址如下</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://github.com/ehang-io/nps</span><br></pre></td></tr></table></figure>
+
+<p>使用这个工具需要有一台带公网IP的服务器做服务端，如果没有服务器，可以推荐花生壳这个平台，有免费的套餐，好不好用我就不知道了，这个平台我没用过不知道怎么样，这我可没打广告；</p>
+<p>回到话题 安装nps我推荐使用docker安装，安装好后有一个后台<img src="/../images/2023-03-31/img.png" alt="img.png"><br>后台就这样，功能很齐全，这个工具用来映射内网端口的，如果你也喜欢折腾，那么你肯定自己去翻文档查谷歌。<br>接下来安装客户端  在项目的 Releases 里找到与你电脑型号对应的客户端，客户端有很多主流平台，不用担心没有你的平台。<br>下载客户端到你的机器上  我这边的是debian不带桌面 所以我只要在客户端所在的目录运行以下命令即可<br><img src="/../images/2023-03-31/img_1.png" alt="img_1.png"><br>这个命令在nps后台的客户端哪里可以找到，运行的时候需要配置一下，在nps的官方文档上有，仔细看看，如从，我们就完成了内网到外网的映射，可以通过映射的端口直接访问到内网的应用了。</p>
+<p>如果是家里可以直接通过路由器内网访问，不用走映射。 值得一说的是，如果家里有ipv6的可以直接走ipv6的，就算外网也不用映射，如果没有，又想外网使用，那就乖做映射。<br>文章内容细节很少，只要的是思路，思路有了，找更详细的文章就容易多了。<br>顺便我简单画一下架构图<br><img src="/../images/2023-03-31/img_2.png" alt="img_2.png"></p>
+<p>流程就是这样，应该是不难的，主要是实现起来需要多看看文档。如果你也喜欢折腾，那这对应你来说问题应该不大。</p>
+<p>顺便说一下，搭建完成后用来做什么。<br>我咸鱼淘了块机械硬盘，扩容，做个下载器或者播放器都不错，这些服务到跑在docker上，非常方便。好了，思路就是这样，慢慢折腾吧！</p>
+]]></content>
+      <tags>
+        <tag>家用服务器</tag>
+        <tag>折腾</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>根除电脑弹窗广告的方法</title>
+    <url>/posts/%E6%A0%B9%E9%99%A4%E7%94%B5%E8%84%91%E5%BC%B9%E7%AA%97%E5%B9%BF%E5%91%8A%E7%9A%84%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<p>​	不可否认的事情是，电脑遇到弹窗广告很无奈，无数次关闭，无数次弹出，看到我这篇博文，或许对你有帮助！</p>
+<span id="more"></span>
+
+<p>​	今天电脑一开机，不对劲啊！电脑弹许多小广告，仔细一看是某大师应用程序弹出来的，本来我是不装这种垃圾软件的，主要是昨天下了个某雷加速下载文件，然后被捆绑了很多东西，流氓软件，强制安装，这让我始料未及，安装好了之后才发现，来不及了，算了，等文件下载完把它们全家桶一起卸载了。好了废话不多说。</p>
+<p>方法一</p>
+<p>这个方法很简单，很粗暴，那就是直接卸载弹出广告的那个应用，有的广告可能不知道是那个应用弹出的，这里我教大家一个方法，打开任务管理器-应用程序-可以看到正在运行的公告</p>
+<p><img src="/../images/ad/1.png"></p>
+<p>此时右键-转到进程，这样就会知道对应进程</p>
+<p><img src="/../images/ad/2.png"></p>
+<p>找到对应进程之后右键-打开文件位置，这样就找到了广告的主程序了</p>
+<p><img src="/../images/ad/3.png"></p>
+<p>接下来，可以把这个目录下所有文件删除掉，前提是要知道你不在使用这个应用了。</p>
+<p>另一种办法就是只删除广告主程序，</p>
+<p><img src="/../images/ad/5.png"></p>
+<p>把它删除即可，广告就不弹出了，</p>
+<p>但是要注意，只删除广告主程序等下次开机时候可能会被应用程序补回去，这样还是没用，但是一般不会，最保险的方法就是不用有广告的应用。</p>
+<p>好了，就到这里了，这个方法很管用。</p>
+]]></content>
+      <tags>
+        <tag>广告</tag>
+        <tag>根除</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>网页vip文档去复制限制</title>
+    <url>/posts/vip-doc-download/</url>
+    <content><![CDATA[<p>一口气更新两篇博文，这篇我来说一下在一些网页上是如何去除文字复制限制的！！</p>
+<p><img src="/../images/vip-doc/a.png"></p>
+<span id="more"></span>
+
+<p>大家好，我是张管家，有时候我们在某度文档上会遇到这种问题，比如说，我们想复制一下上面的文字，但是需要VIP才能复制，那这个时候我们该怎么办呐？？？</p>
+<p>第一步 我们找到一篇VIP文档   例如</p>
+<p><img src="/images/vip-doc/b.png"></p>
+<p>第二步 在该页面上打开控制台 F12 或者右键检查</p>
+<p><img src="/images/vip-doc/c.png"></p>
+<p>之后找到该文档的文字节点</p>
+<p><img src="/images/vip-doc/d.png"></p>
+<p>此时我们记住该节点的ID值 “pageNo-1”</p>
+<p>然后我们要切换到Console控制台上 </p>
+<p>在控制台上输入代码</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$(&#x27;#pageNo-1&#x27;).text();      //jq代码</span><br></pre></td></tr></table></figure>
+
+<p><img src="/images/vip-doc/e.png"></p>
+<p>回车 </p>
+<p>之后我们就可以在控制台里随意复制了</p>
+<p><img src="/images/vip-doc/f.png"></p>
+<p>ok 完成 方法很简单，学过jq的一看就懂，不知道这个方法可以用多久，哈哈反正不用花钱，能用多久就用多久吧！！！</p>
+<p>原理：</p>
+<p>用jq选择到需要复制的的文本表，然后用jq的一个方法（text()）,把里面的文字取出来，就是这么简单。</p>
+]]></content>
+      <tags>
+        <tag>文档</tag>
+        <tag>去限制</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>爬虫是什么？</title>
+    <url>/posts/%E7%88%AC%E8%99%AB/</url>
+    <content><![CDATA[<p>爬虫是什么？我的理解就是在网络上按照一定的规则查询指定的内容。当然了，我的理解可能不全面，重要的是自己懂就行！</p>
+<span id="more"></span>
+
+<p>目前爬虫我归类为两种：<br>一种是爬接口<br>另一种是爬页面</p>
+<p>两个有什么区别呢？我也不好说，如果有接口可以用那会简单的多，页面的话会比爬接口复杂，但不是难，如果你有兴趣了解爬虫，我说的你一定回明白。</p>
+<p>心血来潮，写了个爬虫程序，主要用来爬取自己分院的学生优秀作品。<br>具体代码如下:</p>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">require</span> <span class="string">&#x27;vendor/autoload.php&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">use</span> <span class="title">QL</span>\<span class="title">QueryList</span>;</span><br><span class="line"><span class="comment">//采集某页面所有的图片</span></span><br><span class="line"><span class="title function_ invoke__">ini_set</span>(<span class="string">&quot;max_execution_time&quot;</span>, <span class="number">0</span>);  <span class="comment">//爬虫必备命令 设置运行时间无限制</span></span><br><span class="line"><span class="variable">$data</span> = <span class="title class_">QueryList</span>::<span class="title function_ invoke__">get</span>(<span class="string">&#x27;http://sz.jxgymy.com/xykd/sszp&#x27;</span>)-&gt;<span class="title function_ invoke__">find</span>(<span class="string">&#x27;.total&#x27;</span>)-&gt;<span class="title function_ invoke__">text</span>();</span><br><span class="line"><span class="variable">$url_total_page</span> = <span class="title function_ invoke__">str_replace</span>(<span class="string">&#x27;页&#x27;</span>,<span class="string">&quot;&quot;</span>,<span class="title function_ invoke__">str_replace</span>(<span class="string">&#x27;共&#x27;</span>,<span class="string">&#x27;&#x27;</span>,<span class="title function_ invoke__">strstr</span>(<span class="title function_ invoke__">strstr</span>(<span class="variable">$data</span>, <span class="string">&#x27;/&#x27;</span>),<span class="string">&#x27;共&#x27;</span>)));</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span>(<span class="variable">$i</span>=<span class="number">0</span>;<span class="variable">$i</span>&lt;<span class="variable">$url_total_page</span>;<span class="variable">$i</span>++)&#123;</span><br><span class="line">    <span class="variable">$url_total</span>[<span class="variable">$i</span>] = <span class="string">&#x27;http://sz.jxgymy.com/xykd/sszp_&#x27;</span>.(<span class="variable">$i</span>+<span class="number">1</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">for</span>(<span class="variable">$i</span>=<span class="number">0</span>;<span class="variable">$i</span>&lt;<span class="title function_ invoke__">count</span>(<span class="variable">$url_total</span>);<span class="variable">$i</span>++)&#123;</span><br><span class="line">    <span class="variable">$html</span> = <span class="title function_ invoke__">file_get_contents</span>(<span class="variable">$url_total</span>[<span class="variable">$i</span>]);</span><br><span class="line">    <span class="variable">$ql</span> = <span class="title class_">QueryList</span>::<span class="title function_ invoke__">html</span>(<span class="variable">$html</span>);</span><br><span class="line">    <span class="variable">$url</span>[<span class="variable">$i</span>]= <span class="variable">$ql</span>-&gt;<span class="title function_ invoke__">rules</span>([</span><br><span class="line">        <span class="string">&#x27;url&#x27;</span>=&gt;[<span class="string">&#x27;.pageTPList&gt;li&gt;.title&gt;a&#x27;</span>,<span class="string">&#x27;href&#x27;</span>]</span><br><span class="line">    ])-&gt;<span class="title function_ invoke__">query</span>()-&gt;<span class="title function_ invoke__">getData</span>()-&gt;<span class="title function_ invoke__">all</span>();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span>(<span class="variable">$i</span>=<span class="number">0</span>;<span class="variable">$i</span>&lt;<span class="title function_ invoke__">count</span>(<span class="variable">$url</span>);<span class="variable">$i</span>++)&#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="variable">$j</span>=<span class="number">0</span>;<span class="variable">$j</span>&lt;<span class="title function_ invoke__">count</span>(<span class="variable">$url</span>[<span class="variable">$i</span>]);<span class="variable">$j</span>++)&#123;</span><br><span class="line">        <span class="variable">$html</span> = <span class="title function_ invoke__">file_get_contents</span>(<span class="string">&#x27;http://sz.jxgymy.com&#x27;</span>.<span class="variable">$url</span>[<span class="variable">$i</span>][<span class="variable">$j</span>][<span class="string">&#x27;url&#x27;</span>]);</span><br><span class="line">        <span class="variable">$ql</span> = <span class="title class_">QueryList</span>::<span class="title function_ invoke__">html</span>(<span class="variable">$html</span>);</span><br><span class="line">        <span class="variable">$img</span>[<span class="variable">$i</span>][<span class="variable">$j</span>]= <span class="variable">$ql</span>-&gt;<span class="title function_ invoke__">rules</span>([</span><br><span class="line">            <span class="string">&#x27;title&#x27;</span>=&gt;[<span class="string">&#x27;.title&#x27;</span>,<span class="string">&#x27;text&#x27;</span>],</span><br><span class="line">            <span class="string">&#x27;img&#x27;</span>=&gt;[<span class="string">&#x27;.printArea&gt;div&gt;p&gt;img&#x27;</span>,<span class="string">&#x27;src&#x27;</span>]</span><br><span class="line">        ])-&gt;<span class="title function_ invoke__">query</span>()-&gt;<span class="title function_ invoke__">getData</span>()-&gt;<span class="title function_ invoke__">all</span>();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span>(<span class="variable">$i</span>=<span class="number">0</span>;<span class="variable">$i</span>&lt;<span class="title function_ invoke__">count</span>(<span class="variable">$img</span>);<span class="variable">$i</span>++)&#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="variable">$j</span>=<span class="number">0</span>;<span class="variable">$j</span>&lt;<span class="title function_ invoke__">count</span>(<span class="variable">$img</span>[<span class="variable">$i</span>]);<span class="variable">$j</span>++)&#123;</span><br><span class="line">        <span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="variable">$img</span>[<span class="variable">$i</span>][<span class="variable">$j</span>][<span class="number">0</span>][<span class="string">&#x27;img&#x27;</span>]))&#123;  <span class="comment">//判断url是否存在</span></span><br><span class="line">            <span class="variable">$img_file</span> = <span class="title function_ invoke__">file_get_contents</span>(<span class="string">&#x27;http://sz.jxgymy.com&#x27;</span>.<span class="variable">$img</span>[<span class="variable">$i</span>][<span class="variable">$j</span>][<span class="number">0</span>][<span class="string">&#x27;img&#x27;</span>]);</span><br><span class="line">            <span class="title function_ invoke__">file_put_contents</span>(<span class="string">&#x27;./img/&#x27;</span>.<span class="title function_ invoke__">md5</span>(<span class="title function_ invoke__">time</span>().<span class="title function_ invoke__">rand</span>(<span class="number">0</span>,<span class="number">100</span>)).<span class="string">&#x27;.jpg&#x27;</span>,<span class="variable">$img_file</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//dump($img);</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>精炼的代码得得益于Querylist框架，为我省了很多造轮子的时间。</p>
+<p>具体解释一下代码：</p>
+<p>语言：php </p>
+<p>框架：querylist</p>
+<p>代码全部流程就是 ：取全部分页》取全部分页下的文章》取全部文章下的作品&amp;标题》写入文件。</p>
+<p>ok具体流程就这些，这个也是爬虫的流程模型，我这里是直接下载到了本地。</p>
+<img src="data:image/png;base64,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">
+
+]]></content>
+      <tags>
+        <tag>PHP</tag>
+        <tag>爬虫</tag>
+        <tag>querylist</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在校的最后一个学期！！！！</title>
+    <url>/posts/%E8%A6%81%E5%AE%9E%E4%B9%A0%E5%95%A6%EF%BC%81/</url>
+    <content><![CDATA[<p>好吧，不出意外的话我可能要外出实习了，大学校园里的最后一个学期就此结束。</p>
+<span id="more"></span>
+
+<p>我是晚上三点多到的火车站，刚下火车，外面就传来了迎新学长的热情呼喊，“同学！****院的吗”；“嗯！”，我朋友回答道。“来这边！现在车子回去了，要等一等”，学姐说道。好吧！我等了半小时车子还没来，于是我们自己找了个旅休息到天亮打车去了学校。</p>
+<p>​	好吧，刚开学那会我还历历在目，要是可以回去就好了，但这是不可能的，大学这几年是我人生中最开心的日子，认识了很多人，也了解了很多人。</p>
+<p>​	让我不开心的是在学校的最后这个学期，学校给我的感觉是学校随便找人来上课，只要有人来坐讲台“值班”就行，当然了这个只是我认为的。上课讲的是python，讲的还是ppt，关键是ppt也没讲明白，演示代码敲一段错一段，出了个低级错误还不会解决，这里不否认这个老师不是故意制作问题来讲解的，问题是问题出来了还不会解决，后半个学期干脆就不上课了，直接坐等下班，也许是课程安排原因，也许是后面知识点越来越难了，讲不来，给我的感觉是后者，妈的这种人还带毕业班，不是误人子弟是什么，一学期下来，教的没多少，无关紧要的事是说的倒不少，简直是误人子弟，我是觉得倒霉了在他带的这个班，到了毕业答辩的时候，需要展现水平的时候到了，最可很是在毕业设计时候把第一名给了一个做改源码的那组，这里申明一下，对事不对人，我看了第一名的项目，有一个源码，然后在源码上改了背景图片，音效，还有一些其他图片和参数值，就这样，这种好不好我不评价，但是在我们班上绝对不可能是第一名，我说的是绝对，为什么他们组是第一名呐，我也不知道，在我看来，唯一的可能是点评这个作品的人水平不行，这种作品都可以拿第一名，那我高中就已经全校第一了。妈的，遇到这种人确实倒霉，或有人说可以举报这种行为，但是我只想说，生活不是拍电影，不是想就可以做的，毕竟他混他的日子和我没关系，毕竟他上课讲的那些东西我可以直接不要上，主要是后面排名时候让我始料不及，并且很不服气，综上所说，个人观点。</p>
+<p>​	</p>
+]]></content>
+      <tags>
+        <tag>实习</tag>
+        <tag>大学总结</tag>
+        <tag>最后一个学期</tag>
+      </tags>
+  </entry>
+</search>
