@@ -88,18 +88,8 @@
     <div class="entry">
       
         <p>之前更新过电视盒子改服务器的文章，几天更新个老笔记本改服务器的文章！没啥高深的技术，主要是记录一下。<br>笔记本是跟我也好几年了，初三那会开始，是一台联想的ThinkPad 不愧是ThinkPad 至今没坏过，也没维修过。</p>
-<p>电脑CPU是AMD的，2g内存，回来加装了4g，现在共6g，配置低，不过改装很有乐趣。<br>首先需要重装系统，我装的是Debian 11 没装桌面 ，重装系统的过程可以直接找谷歌，如果有想和我装一样系统的去官网下载镜像,不推荐去其他平台，官网地址如下。</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://debian.org/</span><br></pre></td></tr></table></figure>
-
-<p>然后在介绍一个开源好用的内网端口映射工具叫nps ，就是一个类似花生壳的工具 地址如下</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://github.com/ehang-io/nps</span><br></pre></td></tr></table></figure>
-
-<p>使用这个工具需要有一台带公网IP的服务器做服务端，如果没有服务器，可以推荐花生壳这个平台，有免费的套餐，好不好用我就不知道了，这个平台我没用过不知道怎么样，这我可没打广告；</p>
-<p>回到话题 安装nps我推荐使用docker安装，安装好后有一个后台<img src="/../images/2023-03-31/img.png" alt="img.png"><br>后台就这样，功能很齐全，这个工具用来映射内网端口的，如果你也喜欢折腾，那么你肯定自己去翻文档查谷歌。<br>接下来安装客户端  在项目的 Releases 里找到与你电脑型号对应的客户端，客户端有很多主流平台，不用担心没有你的平台。<br>下载客户端到你的机器上  我这边的是debian不带桌面 所以我只要在客户端所在的目录运行以下命令即可<br><img src="/../images/2023-03-31/img_1.png" alt="img_1.png"><br>这个命令在nps后台的客户端哪里可以找到，运行的时候需要配置一下，在nps的官方文档上有，仔细看看，如从，我们就完成了内网到外网的映射，可以通过映射的端口直接访问到内网的应用了。</p>
-<p>如果是家里可以直接通过路由器内网访问，不用走映射。 值得一说的是，如果家里有ipv6的可以直接走ipv6的，就算外网也不用映射，如果没有，又想外网使用，那就乖做映射。<br>文章内容细节很少，只要的是思路，思路有了，找更详细的文章就容易多了。<br>顺便我简单画一下架构图<br><img src="/../images/2023-03-31/img_2.png" alt="img_2.png"></p>
-<p>流程就是这样，应该是不难的，主要是实现起来需要多看看文档。如果你也喜欢折腾，那这对应你来说问题应该不大。</p>
-<p>顺便说一下，搭建完成后用来做什么。<br>我咸鱼淘了块机械硬盘，扩容，做个下载器或者播放器都不错，这些服务到跑在docker上，非常方便。好了，思路就是这样，慢慢折腾吧！</p>
-
+<p>电脑CPU是AMD的，2g内存，回来加装了4g，现在共6g，配置低，不过改装很有乐趣。</p>
+        
       
     </div>
 
@@ -418,7 +408,6 @@
     <div class="entry">
       
         <p>今天写一篇关于无需ROOT手机变成代理服务器的文章，那这篇文章到底有什么用呢？额。。。继续看文章内容吧！！！</p>
-<p><img src="/../images/proxysever/1.png"></p>
         
       
     </div>
@@ -580,7 +569,6 @@
     <div class="entry">
       
         <p>​	最近突发奇想，写了个沙雕APP，原理是用手机上的照相机闪光灯当手电筒，用光线传感器控制，详细请看下图！！！</p>
-<p><img src="/../images/light/2.png"></p>
         
       
     </div>

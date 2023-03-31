@@ -6,7 +6,7 @@
   <link href="http://yoursite.com/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2023-03-31T09:15:01.722Z</updated>
+  <updated>2023-03-31T09:18:22.234Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,16 +21,13 @@
     <link href="http://yoursite.com/posts/%E5%AE%B6%E7%94%A8%E8%80%81%E6%97%A7%E7%AC%94%E8%AE%B0%E6%9C%AC%E6%94%B9%E5%AE%B6%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     <id>http://yoursite.com/posts/%E5%AE%B6%E7%94%A8%E8%80%81%E6%97%A7%E7%AC%94%E8%AE%B0%E6%9C%AC%E6%94%B9%E5%AE%B6%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/</id>
     <published>2023-03-31T09:14:09.000Z</published>
-    <updated>2023-03-31T09:15:01.722Z</updated>
+    <updated>2023-03-31T09:18:22.234Z</updated>
     
-    <content type="html"><![CDATA[<p>之前更新过电视盒子改服务器的文章，几天更新个老笔记本改服务器的文章！没啥高深的技术，主要是记录一下。<br>笔记本是跟我也好几年了，初三那会开始，是一台联想的ThinkPad 不愧是ThinkPad 至今没坏过，也没维修过。</p><p>电脑CPU是AMD的，2g内存，回来加装了4g，现在共6g，配置低，不过改装很有乐趣。<br>首先需要重装系统，我装的是Debian 11 没装桌面 ，重装系统的过程可以直接找谷歌，如果有想和我装一样系统的去官网下载镜像,不推荐去其他平台，官网地址如下。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://debian.org/</span><br></pre></td></tr></table></figure><p>然后在介绍一个开源好用的内网端口映射工具叫nps ，就是一个类似花生壳的工具 地址如下</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://github.com/ehang-io/nps</span><br></pre></td></tr></table></figure><p>使用这个工具需要有一台带公网IP的服务器做服务端，如果没有服务器，可以推荐花生壳这个平台，有免费的套餐，好不好用我就不知道了，这个平台我没用过不知道怎么样，这我可没打广告；</p><p>回到话题 安装nps我推荐使用docker安装，安装好后有一个后台<img src="/../images/2023-03-31/img.png" alt="img.png"><br>后台就这样，功能很齐全，这个工具用来映射内网端口的，如果你也喜欢折腾，那么你肯定自己去翻文档查谷歌。<br>接下来安装客户端  在项目的 Releases 里找到与你电脑型号对应的客户端，客户端有很多主流平台，不用担心没有你的平台。<br>下载客户端到你的机器上  我这边的是debian不带桌面 所以我只要在客户端所在的目录运行以下命令即可<br><img src="/../images/2023-03-31/img_1.png" alt="img_1.png"><br>这个命令在nps后台的客户端哪里可以找到，运行的时候需要配置一下，在nps的官方文档上有，仔细看看，如从，我们就完成了内网到外网的映射，可以通过映射的端口直接访问到内网的应用了。</p><p>如果是家里可以直接通过路由器内网访问，不用走映射。 值得一说的是，如果家里有ipv6的可以直接走ipv6的，就算外网也不用映射，如果没有，又想外网使用，那就乖做映射。<br>文章内容细节很少，只要的是思路，思路有了，找更详细的文章就容易多了。<br>顺便我简单画一下架构图<br><img src="/../images/2023-03-31/img_2.png" alt="img_2.png"></p><p>流程就是这样，应该是不难的，主要是实现起来需要多看看文档。如果你也喜欢折腾，那这对应你来说问题应该不大。</p><p>顺便说一下，搭建完成后用来做什么。<br>我咸鱼淘了块机械硬盘，扩容，做个下载器或者播放器都不错，这些服务到跑在docker上，非常方便。好了，思路就是这样，慢慢折腾吧！</p>]]></content>
+    <content type="html"><![CDATA[<p>之前更新过电视盒子改服务器的文章，几天更新个老笔记本改服务器的文章！没啥高深的技术，主要是记录一下。<br>笔记本是跟我也好几年了，初三那会开始，是一台联想的ThinkPad 不愧是ThinkPad 至今没坏过，也没维修过。</p><p>电脑CPU是AMD的，2g内存，回来加装了4g，现在共6g，配置低，不过改装很有乐趣。</p><span id="more"></span><p>首先需要重装系统，我装的是Debian 11 没装桌面 ，重装系统的过程可以直接找谷歌，如果有想和我装一样系统的去官网下载镜像,不推荐去其他平台，官网地址如下。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://debian.org/</span><br></pre></td></tr></table></figure><p>然后在介绍一个开源好用的内网端口映射工具叫nps ，就是一个类似花生壳的工具 地址如下</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://github.com/ehang-io/nps</span><br></pre></td></tr></table></figure><p>使用这个工具需要有一台带公网IP的服务器做服务端，如果没有服务器，可以推荐花生壳这个平台，有免费的套餐，好不好用我就不知道了，这个平台我没用过不知道怎么样，这我可没打广告；</p><p>回到话题 安装nps我推荐使用docker安装，安装好后有一个后台<img src="/../images/2023-03-31/img.png" alt="img.png"><br>后台就这样，功能很齐全，这个工具用来映射内网端口的，如果你也喜欢折腾，那么你肯定自己去翻文档查谷歌。<br>接下来安装客户端  在项目的 Releases 里找到与你电脑型号对应的客户端，客户端有很多主流平台，不用担心没有你的平台。<br>下载客户端到你的机器上  我这边的是debian不带桌面 所以我只要在客户端所在的目录运行以下命令即可<br><img src="/../images/2023-03-31/img_1.png" alt="img_1.png"><br>这个命令在nps后台的客户端哪里可以找到，运行的时候需要配置一下，在nps的官方文档上有，仔细看看，如从，我们就完成了内网到外网的映射，可以通过映射的端口直接访问到内网的应用了。</p><p>如果是家里可以直接通过路由器内网访问，不用走映射。 值得一说的是，如果家里有ipv6的可以直接走ipv6的，就算外网也不用映射，如果没有，又想外网使用，那就乖做映射。<br>文章内容细节很少，只要的是思路，思路有了，找更详细的文章就容易多了。<br>顺便我简单画一下架构图<br><img src="/../images/2023-03-31/img_2.png" alt="img_2.png"></p><p>流程就是这样，应该是不难的，主要是实现起来需要多看看文档。如果你也喜欢折腾，那这对应你来说问题应该不大。</p><p>顺便说一下，搭建完成后用来做什么。<br>我咸鱼淘了块机械硬盘，扩容，做个下载器或者播放器都不错，这些服务到跑在docker上，非常方便。好了，思路就是这样，慢慢折腾吧！</p>]]></content>
     
     
-      
-      
     <summary type="html">&lt;p&gt;之前更新过电视盒子改服务器的文章，几天更新个老笔记本改服务器的文章！没啥高深的技术，主要是记录一下。&lt;br&gt;笔记本是跟我也好几年了，初三那会开始，是一台联想的ThinkPad 不愧是ThinkPad 至今没坏过，也没维修过。&lt;/p&gt;
-&lt;p&gt;电脑CPU是AMD的，2g内存，回</summary>
-      
+&lt;p&gt;电脑CPU是AMD的，2g内存，回来加装了4g，现在共6g，配置低，不过改装很有乐趣。&lt;/p&gt;</summary>
     
     
     
@@ -158,13 +155,12 @@
     <link href="http://yoursite.com/posts/proxySevertools/"/>
     <id>http://yoursite.com/posts/proxySevertools/</id>
     <published>2020-08-24T16:00:00.000Z</published>
-    <updated>2020-08-25T17:29:57.543Z</updated>
+    <updated>2023-03-31T09:18:53.362Z</updated>
     
-    <content type="html"><![CDATA[<p>今天写一篇关于无需ROOT手机变成代理服务器的文章，那这篇文章到底有什么用呢？额。。。继续看文章内容吧！！！</p><p><img src="/../images/proxysever/1.png"></p><span id="more"></span><p>开头时候我说明一下，这款工具不是我开发的，不是我开发的，不是我开发的！！！作者我不知道</p><p>那为什么会有我的博客在上面？额。。。这个就相当于我把巧克力融化了，然后重新塑形，那它将有我起名，哈哈哈哈哈！！！ </p><p>好吧，我个人而言给他重新起名只是为了好记，或许有人不适应我这种行为，那看到这里就不要看下去了。网络中你无法干我，骂我我也听不到。</p><p>话不多说，如果你在手机上开了VPN的话，而且需要开热点连接的用户与你保持统一地址，那或许你需要这个工具，这个是它其中的一个用处。</p><p>需要材料：</p><p>代理转发工具一个：<a href="https://wwa.lanzous.com/ii8Gig0tdpi">https://wwa.lanzous.com/ii8Gig0tdpi</a></p><p>手机A一部</p><p>手机&#x2F;电脑&#x2F;路由器&#x2F;可以连接热点并可以设置代理的设备</p><p>开搞</p><p>手机A安装工具并且打开</p><p><img src="/images/proxysever/2.png"></p><p>点击左上角添加 选择 代理服务器</p><p><img src="/images/proxysever/3.png"></p><p>服务名称随便    服务端口也随便  点返回就会弹出保存提示</p><p><img src="/images/proxysever/4.png"></p><p><img src="/images/proxysever/5.png"></p><p>然后点开启 或者选择单个开启</p><p><img src="/images/proxysever/6.png"></p><p>ok 手机A上就操作完成了 ，保持后台运行就可以了。</p><p><img src="/images/proxysever/7.png"></p><p>好接下来就是另一个设备的设置了，我这里用的是电脑，手机等设备原理是一样的</p><p>假设此时手机A已经开启热点，并且电脑已经连接上该热点。</p><p><img src="/images/proxysever/8.png"></p><p>ok，接下来，打开VPN工具，并且连接。</p><p>示例VPN</p><p><img src="/images/proxysever/9.jpg"></p><p>接下来电脑上打开代理设置，这个在电脑在每台电脑上都有的。</p><p><img src="/images/proxysever/10.png"></p><p>打开局域网设置</p><p><img src="/images/proxysever/11.png"></p><p>勾选代理服务器，地址怎么填那个呢？</p><p><img src="/images/proxysever/12.jpg"></p><p>点开</p><p><img src="/images/proxysever/13.jpg"></p><p>端口就是你开始设置的那个打开，我这里设置的是1234</p><p>ok，确定保存就可以了。我们来看一下效果。</p><p><img src="/images/proxysever/14.png"></p><p>ok，和手机IP一致，代理成功。可以起飞了。  这种方法只能代理浏览器，要代理全部应用可以找到相应的工具即可，手机同理更简单，</p>]]></content>
+    <content type="html"><![CDATA[<p>今天写一篇关于无需ROOT手机变成代理服务器的文章，那这篇文章到底有什么用呢？额。。。继续看文章内容吧！！！</p><span id="more"></span><p><img src="/../images/proxysever/1.png"></p><!-- more --><p>开头时候我说明一下，这款工具不是我开发的，不是我开发的，不是我开发的！！！作者我不知道</p><p>那为什么会有我的博客在上面？额。。。这个就相当于我把巧克力融化了，然后重新塑形，那它将有我起名，哈哈哈哈哈！！！ </p><p>好吧，我个人而言给他重新起名只是为了好记，或许有人不适应我这种行为，那看到这里就不要看下去了。网络中你无法干我，骂我我也听不到。</p><p>话不多说，如果你在手机上开了VPN的话，而且需要开热点连接的用户与你保持统一地址，那或许你需要这个工具，这个是它其中的一个用处。</p><p>需要材料：</p><p>代理转发工具一个：<a href="https://wwa.lanzous.com/ii8Gig0tdpi">https://wwa.lanzous.com/ii8Gig0tdpi</a></p><p>手机A一部</p><p>手机&#x2F;电脑&#x2F;路由器&#x2F;可以连接热点并可以设置代理的设备</p><p>开搞</p><p>手机A安装工具并且打开</p><p><img src="/images/proxysever/2.png"></p><p>点击左上角添加 选择 代理服务器</p><p><img src="/images/proxysever/3.png"></p><p>服务名称随便    服务端口也随便  点返回就会弹出保存提示</p><p><img src="/images/proxysever/4.png"></p><p><img src="/images/proxysever/5.png"></p><p>然后点开启 或者选择单个开启</p><p><img src="/images/proxysever/6.png"></p><p>ok 手机A上就操作完成了 ，保持后台运行就可以了。</p><p><img src="/images/proxysever/7.png"></p><p>好接下来就是另一个设备的设置了，我这里用的是电脑，手机等设备原理是一样的</p><p>假设此时手机A已经开启热点，并且电脑已经连接上该热点。</p><p><img src="/images/proxysever/8.png"></p><p>ok，接下来，打开VPN工具，并且连接。</p><p>示例VPN</p><p><img src="/images/proxysever/9.jpg"></p><p>接下来电脑上打开代理设置，这个在电脑在每台电脑上都有的。</p><p><img src="/images/proxysever/10.png"></p><p>打开局域网设置</p><p><img src="/images/proxysever/11.png"></p><p>勾选代理服务器，地址怎么填那个呢？</p><p><img src="/images/proxysever/12.jpg"></p><p>点开</p><p><img src="/images/proxysever/13.jpg"></p><p>端口就是你开始设置的那个打开，我这里设置的是1234</p><p>ok，确定保存就可以了。我们来看一下效果。</p><p><img src="/images/proxysever/14.png"></p><p>ok，和手机IP一致，代理成功。可以起飞了。  这种方法只能代理浏览器，要代理全部应用可以找到相应的工具即可，手机同理更简单，</p>]]></content>
     
     
-    <summary type="html">&lt;p&gt;今天写一篇关于无需ROOT手机变成代理服务器的文章，那这篇文章到底有什么用呢？额。。。继续看文章内容吧！！！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/../images/proxysever/1.png&quot;&gt;&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;今天写一篇关于无需ROOT手机变成代理服务器的文章，那这篇文章到底有什么用呢？额。。。继续看文章内容吧！！！&lt;/p&gt;</summary>
     
     
     
@@ -230,13 +226,12 @@
     <link href="http://yoursite.com/posts/light/"/>
     <id>http://yoursite.com/posts/light/</id>
     <published>2020-06-13T16:00:00.000Z</published>
-    <updated>2020-06-15T11:38:06.298Z</updated>
+    <updated>2023-03-31T09:19:08.460Z</updated>
     
-    <content type="html"><![CDATA[<p>​最近突发奇想，写了个沙雕APP，原理是用手机上的照相机闪光灯当手电筒，用光线传感器控制，详细请看下图！！！</p><p><img src="/../images/light/2.png"></p><span id="more"></span><p>为方便下载，特地做了个官网：<a href="https://t-name.gitee.io/light/">https://t-name.gitee.io/light/</a></p><p>详情看软件介绍</p><p>软件介绍：这个是一个光能手电筒<br>如果你在黑暗中渴望一丝光明，那么这个手电筒或许可以帮助你，采用最新科技，纳米技术懂吗？懂啊！对，和这个没关系，和量子力学有关系！！！！<br>该软件适用于家里，学校，公司等停电的情况下使用，使用方法也很简单，只要把APP打开将屏幕置放与光源处即可，那么在没灯的情况下怎么办？那它绝对不亮！设计非常得实用，非常得银杏！！</p><p>该程序由个人开发，代码无任何抄袭或套用，本人人格保证无病毒并且安全<br>灵感来源一位叫达文西发明家<br>作者：张管家（小嵩）</p>]]></content>
+    <content type="html"><![CDATA[<p>​最近突发奇想，写了个沙雕APP，原理是用手机上的照相机闪光灯当手电筒，用光线传感器控制，详细请看下图！！！</p><span id="more"></span><p><img src="/../images/light/2.png"></p><!-- more --><p>为方便下载，特地做了个官网：<a href="https://t-name.gitee.io/light/">https://t-name.gitee.io/light/</a></p><p>详情看软件介绍</p><p>软件介绍：这个是一个光能手电筒<br>如果你在黑暗中渴望一丝光明，那么这个手电筒或许可以帮助你，采用最新科技，纳米技术懂吗？懂啊！对，和这个没关系，和量子力学有关系！！！！<br>该软件适用于家里，学校，公司等停电的情况下使用，使用方法也很简单，只要把APP打开将屏幕置放与光源处即可，那么在没灯的情况下怎么办？那它绝对不亮！设计非常得实用，非常得银杏！！</p><p>该程序由个人开发，代码无任何抄袭或套用，本人人格保证无病毒并且安全<br>灵感来源一位叫达文西发明家<br>作者：张管家（小嵩）</p>]]></content>
     
     
-    <summary type="html">&lt;p&gt;​	最近突发奇想，写了个沙雕APP，原理是用手机上的照相机闪光灯当手电筒，用光线传感器控制，详细请看下图！！！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/../images/light/2.png&quot;&gt;&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;​	最近突发奇想，写了个沙雕APP，原理是用手机上的照相机闪光灯当手电筒，用光线传感器控制，详细请看下图！！！&lt;/p&gt;</summary>
     
     
     
