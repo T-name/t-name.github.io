@@ -6,7 +6,7 @@
   <link href="http://yoursite.com/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2023-03-31T09:18:22.234Z</updated>
+  <updated>2023-04-01T01:58:00.685Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>php爬虫获取页面js渲染后解析</title>
+    <link href="http://yoursite.com/posts/php%E7%88%AC%E8%99%AB%E8%8E%B7%E5%8F%96%E9%A1%B5%E9%9D%A2JS%E6%B8%B2%E6%9F%93%E5%90%8E%E8%A7%A3%E6%9E%90/"/>
+    <id>http://yoursite.com/posts/php%E7%88%AC%E8%99%AB%E8%8E%B7%E5%8F%96%E9%A1%B5%E9%9D%A2JS%E6%B8%B2%E6%9F%93%E5%90%8E%E8%A7%A3%E6%9E%90/</id>
+    <published>2023-04-01T02:00:00.000Z</published>
+    <updated>2023-04-01T01:58:00.685Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>php在爬虫这方面也是有发展的，最近也研究了一些，下面我就将我的php爬虫经历写成一篇文章。有喜欢的朋友可以研究研究。<!--more---></li></ul><p>这里介绍一下php的爬虫插件（框架） queryList  据说这是国人开发 ，github地址如下</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://github.com/jae-jae/querylist</span><br></pre></td></tr></table></figure><p>爬虫框架可以大大的节省开发时间和成本，顺便一说，大家在生产开发中我也推荐大家使用成熟的框架，成熟的框架可以解决开发中90%问题，剩下10%是产品经理或甲方带来的，如果你喜欢自己开发框架，那当我没说，甚至想劝告你开源。<br>回到正题 这套框架可以很好的与jquery技术融合，会使用jquery的基本上，这套框架差不多就会了。<br>说一下我遇到的问题<br>我本打算爬取某音的用户页面，当然了我的目的是为了学习，我打开页面 然后浏览器f12 开始分析html页面结构，分析完后，代码很快就写完了，一运行，结果不对了，我仔细对了一下浏览器，感觉没错啊，于是打印结果一看，恍然大悟，原来抖音的用户页面加载的是一段js代码，<br>页面是浏览器通过运行段js来渲染的出来的html，那这样的话，我这边的流程由原来的  获取页面 - 解析页面 - 输出结果   这样就可以了，现在到第二步骤就断了，因为这种js渲染的页面解析了也没用，于是我找一下文档，发现还有给插件叫 Puppeteer 它可以解析js动态渲染的页面，但是同时需要安装nodejs环境，文档地址如下</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://querylist.cc/docs/guide/v4/Puppeteer</span><br></pre></td></tr></table></figure><p>文档里面有的内容我就不搬到这里了。</p><p>于是这样我就可以解析js动态渲染的页面了。问题解决了，<br>现在的流程是 获取页面 - 渲染页面 - 解析页面 - 输出结果；</p><p>如果你有更好新的爬虫思路可以一起讨论一下！！！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;php在爬虫这方面也是有发展的，最近也研究了一些，下面我就将我的php爬虫经历写成一篇文章。有喜欢的朋友可以研究研究。&lt;!--more---&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这里介绍一下php的爬虫插件（框架） queryList  据说这是国人开发 ，githu</summary>
+      
+    
+    
+    
+    
+    <category term="爬虫" scheme="http://yoursite.com/tags/%E7%88%AC%E8%99%AB/"/>
+    
+    <category term="php爬虫" scheme="http://yoursite.com/tags/php%E7%88%AC%E8%99%AB/"/>
+    
+  </entry>
   
   <entry>
     <title>家用电视盒子改成小型服务器</title>
@@ -122,9 +149,9 @@
     
     
     
-    <category term="PHP" scheme="http://yoursite.com/tags/PHP/"/>
-    
     <category term="爬虫" scheme="http://yoursite.com/tags/%E7%88%AC%E8%99%AB/"/>
+    
+    <category term="PHP" scheme="http://yoursite.com/tags/PHP/"/>
     
     <category term="querylist" scheme="http://yoursite.com/tags/querylist/"/>
     
@@ -189,35 +216,13 @@
     
     
     
-    <category term="PHP" scheme="http://yoursite.com/tags/PHP/"/>
-    
     <category term="爬虫" scheme="http://yoursite.com/tags/%E7%88%AC%E8%99%AB/"/>
+    
+    <category term="PHP" scheme="http://yoursite.com/tags/PHP/"/>
     
     <category term="cosplay" scheme="http://yoursite.com/tags/cosplay/"/>
     
     <category term="源码" scheme="http://yoursite.com/tags/%E6%BA%90%E7%A0%81/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>网页vip文档去复制限制</title>
-    <link href="http://yoursite.com/posts/vip-doc-download/"/>
-    <id>http://yoursite.com/posts/vip-doc-download/</id>
-    <published>2020-06-15T08:57:09.000Z</published>
-    <updated>2020-06-15T12:49:32.524Z</updated>
-    
-    <content type="html"><![CDATA[<p>一口气更新两篇博文，这篇我来说一下在一些网页上是如何去除文字复制限制的！！</p><p><img src="/../images/vip-doc/a.png"></p><span id="more"></span><p>大家好，我是张管家，有时候我们在某度文档上会遇到这种问题，比如说，我们想复制一下上面的文字，但是需要VIP才能复制，那这个时候我们该怎么办呐？？？</p><p>第一步 我们找到一篇VIP文档   例如</p><p><img src="/images/vip-doc/b.png"></p><p>第二步 在该页面上打开控制台 F12 或者右键检查</p><p><img src="/images/vip-doc/c.png"></p><p>之后找到该文档的文字节点</p><p><img src="/images/vip-doc/d.png"></p><p>此时我们记住该节点的ID值 “pageNo-1”</p><p>然后我们要切换到Console控制台上 </p><p>在控制台上输入代码</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$(&#x27;#pageNo-1&#x27;).text();      //jq代码</span><br></pre></td></tr></table></figure><p><img src="/images/vip-doc/e.png"></p><p>回车 </p><p>之后我们就可以在控制台里随意复制了</p><p><img src="/images/vip-doc/f.png"></p><p>ok 完成 方法很简单，学过jq的一看就懂，不知道这个方法可以用多久，哈哈反正不用花钱，能用多久就用多久吧！！！</p><p>原理：</p><p>用jq选择到需要复制的的文本表，然后用jq的一个方法（text()）,把里面的文字取出来，就是这么简单。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;一口气更新两篇博文，这篇我来说一下在一些网页上是如何去除文字复制限制的！！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/../images/vip-doc/a.png&quot;&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    
-    <category term="文档" scheme="http://yoursite.com/tags/%E6%96%87%E6%A1%A3/"/>
-    
-    <category term="去限制" scheme="http://yoursite.com/tags/%E5%8E%BB%E9%99%90%E5%88%B6/"/>
     
   </entry>
   
