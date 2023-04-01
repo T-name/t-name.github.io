@@ -88,16 +88,8 @@
     <div class="entry">
       
         <ul>
-<li>php在爬虫这方面也是有发展的，最近也研究了一些，下面我就将我的php爬虫经历写成一篇文章。有喜欢的朋友可以研究研究。<!--more---></li>
-</ul>
-<p>这里介绍一下php的爬虫插件（框架） queryList  据说这是国人开发 ，github地址如下</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://github.com/jae-jae/querylist</span><br></pre></td></tr></table></figure>
-<p>爬虫框架可以大大的节省开发时间和成本，顺便一说，大家在生产开发中我也推荐大家使用成熟的框架，成熟的框架可以解决开发中90%问题，剩下10%是产品经理或甲方带来的，如果你喜欢自己开发框架，那当我没说，甚至想劝告你开源。<br>回到正题 这套框架可以很好的与jquery技术融合，会使用jquery的基本上，这套框架差不多就会了。<br>说一下我遇到的问题<br>我本打算爬取某音的用户页面，当然了我的目的是为了学习，我打开页面 然后浏览器f12 开始分析html页面结构，分析完后，代码很快就写完了，一运行，结果不对了，我仔细对了一下浏览器，感觉没错啊，于是打印结果一看，恍然大悟，原来抖音的用户页面加载的是一段js代码，<br>页面是浏览器通过运行段js来渲染的出来的html，那这样的话，我这边的流程由原来的  获取页面 - 解析页面 - 输出结果   这样就可以了，现在到第二步骤就断了，因为这种js渲染的页面解析了也没用，于是我找一下文档，发现还有给插件叫 Puppeteer 它可以解析js动态渲染的页面，但是同时需要安装nodejs环境，文档地址如下</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://querylist.cc/docs/guide/v4/Puppeteer</span><br></pre></td></tr></table></figure>
-<p>文档里面有的内容我就不搬到这里了。</p>
-<p>于是这样我就可以解析js动态渲染的页面了。问题解决了，<br>现在的流程是 获取页面 - 渲染页面 - 解析页面 - 输出结果；</p>
-<p>如果你有更好新的爬虫思路可以一起讨论一下！！！</p>
-
+<li>php在爬虫这方面也是有发展的，最近也研究了一些，下面我就将我的php爬虫经历写成一篇文章。有喜欢的朋友可以研究研究。
+        
       
     </div>
 
@@ -379,7 +371,7 @@
 
     <span class="post-tags">
       <i class="icon-tags"></i>
-        <a href="/tags/爬虫/">爬虫</a><a href="/tags/PHP/">PHP</a><a href="/tags/querylist/">querylist</a>
+        <a href="/tags/PHP/">PHP</a><a href="/tags/爬虫/">爬虫</a><a href="/tags/querylist/">querylist</a>
     </span>
     
 
@@ -540,7 +532,7 @@
 
     <span class="post-tags">
       <i class="icon-tags"></i>
-        <a href="/tags/爬虫/">爬虫</a><a href="/tags/PHP/">PHP</a><a href="/tags/cosplay/">cosplay</a><a href="/tags/源码/">源码</a>
+        <a href="/tags/PHP/">PHP</a><a href="/tags/爬虫/">爬虫</a><a href="/tags/cosplay/">cosplay</a><a href="/tags/源码/">源码</a>
     </span>
     
 

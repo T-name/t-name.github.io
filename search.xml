@@ -22,18 +22,6 @@
       </tags>
   </entry>
   <entry>
-    <title>开篇</title>
-    <url>/posts/kai-pian/</url>
-    <content><![CDATA[<p><img src="/images/kai-pian/kp.png"></p>
-<p>哦！该死，一波三折，不过还好终于完成了，记得上次写博客还是高中时候吧，因为设备不齐全，写的也没什么营养，过了一阵子就放弃了，不过现在好了，万事俱备了，东风也不欠了，正正好。</p>
-<span id="more"></span>
-<p>  这个博客我会发表一些我的学习经验和我对一些事情的看法。当然了，写什么最主要的还是看我心情。可能说的不是很详细，可以看我博客<a href="/about/"><b>更多</b></a>介绍</p>
-]]></content>
-      <tags>
-        <tag>开篇</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>光能手电筒</title>
     <url>/posts/light/</url>
     <content><![CDATA[<p>​	最近突发奇想，写了个沙雕APP，原理是用手机上的照相机闪光灯当手电筒，用光线传感器控制，详细请看下图！！！</p>
@@ -52,22 +40,37 @@
       </tags>
   </entry>
   <entry>
-    <title>php爬虫获取页面js渲染后解析</title>
-    <url>/posts/php%E7%88%AC%E8%99%AB%E8%8E%B7%E5%8F%96%E9%A1%B5%E9%9D%A2JS%E6%B8%B2%E6%9F%93%E5%90%8E%E8%A7%A3%E6%9E%90/</url>
-    <content><![CDATA[<ul>
-<li>php在爬虫这方面也是有发展的，最近也研究了一些，下面我就将我的php爬虫经历写成一篇文章。有喜欢的朋友可以研究研究。<!--more---></li>
-</ul>
-<p>这里介绍一下php的爬虫插件（框架） queryList  据说这是国人开发 ，github地址如下</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://github.com/jae-jae/querylist</span><br></pre></td></tr></table></figure>
-<p>爬虫框架可以大大的节省开发时间和成本，顺便一说，大家在生产开发中我也推荐大家使用成熟的框架，成熟的框架可以解决开发中90%问题，剩下10%是产品经理或甲方带来的，如果你喜欢自己开发框架，那当我没说，甚至想劝告你开源。<br>回到正题 这套框架可以很好的与jquery技术融合，会使用jquery的基本上，这套框架差不多就会了。<br>说一下我遇到的问题<br>我本打算爬取某音的用户页面，当然了我的目的是为了学习，我打开页面 然后浏览器f12 开始分析html页面结构，分析完后，代码很快就写完了，一运行，结果不对了，我仔细对了一下浏览器，感觉没错啊，于是打印结果一看，恍然大悟，原来抖音的用户页面加载的是一段js代码，<br>页面是浏览器通过运行段js来渲染的出来的html，那这样的话，我这边的流程由原来的  获取页面 - 解析页面 - 输出结果   这样就可以了，现在到第二步骤就断了，因为这种js渲染的页面解析了也没用，于是我找一下文档，发现还有给插件叫 Puppeteer 它可以解析js动态渲染的页面，但是同时需要安装nodejs环境，文档地址如下</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://querylist.cc/docs/guide/v4/Puppeteer</span><br></pre></td></tr></table></figure>
-<p>文档里面有的内容我就不搬到这里了。</p>
-<p>于是这样我就可以解析js动态渲染的页面了。问题解决了，<br>现在的流程是 获取页面 - 渲染页面 - 解析页面 - 输出结果；</p>
-<p>如果你有更好新的爬虫思路可以一起讨论一下！！！</p>
+    <title>开篇</title>
+    <url>/posts/kai-pian/</url>
+    <content><![CDATA[<p><img src="/images/kai-pian/kp.png"></p>
+<p>哦！该死，一波三折，不过还好终于完成了，记得上次写博客还是高中时候吧，因为设备不齐全，写的也没什么营养，过了一阵子就放弃了，不过现在好了，万事俱备了，东风也不欠了，正正好。</p>
+<span id="more"></span>
+<p>  这个博客我会发表一些我的学习经验和我对一些事情的看法。当然了，写什么最主要的还是看我心情。可能说的不是很详细，可以看我博客<a href="/about/"><b>更多</b></a>介绍</p>
 ]]></content>
       <tags>
+        <tag>开篇</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>cosplay图片爬虫</title>
+    <url>/posts/pachong-cosplay/</url>
+    <content><![CDATA[<p>空闲之余写了个爬虫工具，该工具会自动爬取cosplay图片，随机爬取，源码仅供学习！！！</p>
+<p><img src="/../images/cosplay/p1.png"></p>
+<span id="more"></span>
+
+<p>程序很简单，源码开源到GitHu有需要学习的可以去下载，自适应手机和电脑。</p>
+<p>仓库地址:<a href="https://github.com/T-name/pachon_copsplay.git">https://github.com/T-name/pachon_copsplay.git</a></p>
+<p>源码仅供学习，其他用途后果自负。</p>
+<p>测试环境：PHP：7.0.12</p>
+<p>测试截图：</p>
+<p><img src="/images/cosplay/p2.png"></p>
+<p><img src="/images/cosplay/p3.png"></p>
+]]></content>
+      <tags>
+        <tag>PHP</tag>
         <tag>爬虫</tag>
-        <tag>php爬虫</tag>
+        <tag>cosplay</tag>
+        <tag>源码</tag>
       </tags>
   </entry>
   <entry>
@@ -85,6 +88,25 @@
 ]]></content>
       <tags>
         <tag>PHP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>php爬虫获取页面js渲染后解析</title>
+    <url>/posts/php%E7%88%AC%E8%99%AB%E8%8E%B7%E5%8F%96%E9%A1%B5%E9%9D%A2JS%E6%B8%B2%E6%9F%93%E5%90%8E%E8%A7%A3%E6%9E%90/</url>
+    <content><![CDATA[<ul>
+<li>php在爬虫这方面也是有发展的，最近也研究了一些，下面我就将我的php爬虫经历写成一篇文章。有喜欢的朋友可以研究研究。<span id="more"></span></li>
+</ul>
+<p>这里介绍一下php的爬虫插件（框架） queryList  据说这是国人开发 ，github地址如下</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://github.com/jae-jae/querylist</span><br></pre></td></tr></table></figure>
+<p>爬虫框架可以大大的节省开发时间和成本，顺便一说，大家在生产开发中我也推荐大家使用成熟的框架，成熟的框架可以解决开发中90%问题，剩下10%是产品经理或甲方带来的，如果你喜欢自己开发框架，那当我没说，甚至想劝告你开源。<br>回到正题 这套框架可以很好的与jquery技术融合，会使用jquery的基本上，这套框架差不多就会了。<br>说一下我遇到的问题<br>我本打算爬取某音的用户页面，当然了我的目的是为了学习，我打开页面 然后浏览器f12 开始分析html页面结构，分析完后，代码很快就写完了，一运行，结果不对了，我仔细对了一下浏览器，感觉没错啊，于是打印结果一看，恍然大悟，原来抖音的用户页面加载的是一段js代码，<br>页面是浏览器通过运行段js来渲染的出来的html，那这样的话，我这边的流程由原来的  获取页面 - 解析页面 - 输出结果   这样就可以了，现在到第二步骤就断了，因为这种js渲染的页面解析了也没用，于是我找一下文档，发现还有给插件叫 Puppeteer 它可以解析js动态渲染的页面，但是同时需要安装nodejs环境，文档地址如下</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://querylist.cc/docs/guide/v4/Puppeteer</span><br></pre></td></tr></table></figure>
+<p>文档里面有的内容我就不搬到这里了。</p>
+<p>于是这样我就可以解析js动态渲染的页面了。问题解决了，<br>现在的流程是 获取页面 - 渲染页面 - 解析页面 - 输出结果；</p>
+<p>如果你有更好新的爬虫思路可以一起讨论一下！！！</p>
+]]></content>
+      <tags>
+        <tag>爬虫</tag>
+        <tag>php爬虫</tag>
       </tags>
   </entry>
   <entry>
@@ -138,28 +160,6 @@
         <tag>proxy</tag>
         <tag>代理</tag>
         <tag>VPN</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>cosplay图片爬虫</title>
-    <url>/posts/pachong-cosplay/</url>
-    <content><![CDATA[<p>空闲之余写了个爬虫工具，该工具会自动爬取cosplay图片，随机爬取，源码仅供学习！！！</p>
-<p><img src="/../images/cosplay/p1.png"></p>
-<span id="more"></span>
-
-<p>程序很简单，源码开源到GitHu有需要学习的可以去下载，自适应手机和电脑。</p>
-<p>仓库地址:<a href="https://github.com/T-name/pachon_copsplay.git">https://github.com/T-name/pachon_copsplay.git</a></p>
-<p>源码仅供学习，其他用途后果自负。</p>
-<p>测试环境：PHP：7.0.12</p>
-<p>测试截图：</p>
-<p><img src="/images/cosplay/p2.png"></p>
-<p><img src="/images/cosplay/p3.png"></p>
-]]></content>
-      <tags>
-        <tag>爬虫</tag>
-        <tag>PHP</tag>
-        <tag>cosplay</tag>
-        <tag>源码</tag>
       </tags>
   </entry>
   <entry>
@@ -387,8 +387,8 @@
 
 ]]></content>
       <tags>
-        <tag>爬虫</tag>
         <tag>PHP</tag>
+        <tag>爬虫</tag>
         <tag>querylist</tag>
       </tags>
   </entry>
